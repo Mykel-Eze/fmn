@@ -1,0 +1,623 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.5em;
+}
+header {
+    padding-left: 70px;
+}
+.header-logo {
+    height: 100px;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2em;
+    font-family: var(--pry-font-bold);
+}
+h1 {
+    font-size: 52px;
+    line-height: 1.3em;
+}
+h2 {
+    font-size: 38px;
+    font-family: var(--pry-font-bold);
+}
+.navbar-toggler-icon {
+    color: green;
+}
+a.nav-link {
+    text-align: left;
+    font-size: 16px;
+    color: #000 !important;
+}
+a.active {
+    background-color: #ff5100;
+    height: 2em;
+    border-radius: 70px;
+}
+p {
+    font-size: 17px;
+}
+.list {
+    font-size: 17px;
+}
+.list {
+    padding-bottom: 10px;
+}
+.btn,
+.btn-yellow,
+nav {
+    font-family: 'Poppins', sans-serif;
+}
+/* i{
+    font-size: smaller;
+} */
+.section {
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+}
+section {
+    width: 100%;
+}
+.supporter-logo {
+    width: 200px;
+}
+.logo {
+    height: 100px;
+}
+.row.p {
+    width: 70%;
+    margin: auto;
+}
+/* .header-text{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+} */
+
+.pad3 {
+    /* padding-top: 3em; */
+    padding-bottom: 1em;
+    color: #fff;
+}
+.pad2 {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    color: #fff;
+}
+
+.red-corona {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 15%;
+    right: 0%;
+}
+.green-corona {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    z-index: 999;
+}
+.flueon {
+    width: 100vw;
+    /* left: 0; */
+    position: absolute;
+    bottom: -30%;
+    z-index: 999;
+}
+.flueon-2 {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -30%;
+    /* z-index: 10; */
+}
+.flueon-3 {
+    width: 80vw;
+    right: 0;
+    position: absolute;
+    bottom: -5%;
+    z-index: 999;
+}
+
+.btn-yellow {
+    background-color: #f1e662;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.btn-yellow-sm {
+    background-color: #f1e662;
+
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+#section-1,
+#section-2,
+#section-3,
+#section-4,
+#section-5,
+#section-6,
+#section-7,
+#usefulResources {
+    display: flex;
+    height: 100vh;
+}
+.header-text {
+    font-size: 24px;
+    line-height: 1.4em;
+}
+#section-2 {
+    /* position: relative; */
+    /* height: 100vh; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/homepage/WATCH-VIDEO-HOMEPAGE.jpg');
+}
+#section-3 {
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/homepage/EMPLOYEE-SLIDE-HOMEPAGE.jpg')
+            center center;
+}
+#section-4 {
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/fmn-man-standing.jpg')
+            bottom center;
+}
+#section-5 {
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/TESTING-SLIDE-HOMEPAGE.jpg')
+            bottom center;
+}
+#section-6 {
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/FOOD-SLIDE-HOMEPAGE.jpg');
+}
+#section-7 {
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/COVID-19-patients-bed-space.jpg');
+}
+
+#section-8,
+#usefulResources {
+    position: relative;
+    background-color: #231f20;
+}
+
+.bg-image {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover !important;
+    color: #fff;
+    z-index: 10;
+}
+
+.bg-image:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -99;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.underline {
+    text-decoration: underline;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 70px;
+    background-color: white;
+    color: black;
+}
+
+section#footer i {
+    color: green !important;
+    font-size: 24px;
+}
+/* #largeModal {margin-left: 30px; margin-right: 30px;} */
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: #ffffff;
+    list-style: none;
+}
+/* .carousel-indicators li.active{
+    width: 40px;
+    margin: 3px;
+    height: 9px;
+    border-radius: 10%;
+} */
+.carousel-indicators {
+    bottom: -10%;
+}
+
+.carousel-indicators.green {
+    bottom: -5%;
+}
+
+.carousel-indicators.green li {
+    background-color: seagreen;
+}
+span.carousel-control-next-icon {
+    margin-right: -200px;
+    font-size: 100px !important;
+}
+span.carousel-control-prev-icon {
+    margin-left: -200px;
+    font-size: 100px !important;
+}
+/*.carousel-control.left {margin-left: -105px; color: black;}
+.carousel-control.right {margin-right: -105px; color: black;} */
+
+.carousel-control.left,
+.carousel-control.right {
+    background: none;
+}
+
+/*change it according to your needs*/
+
+.carousel-control.left {
+    left: 195px;
+}
+
+.carousel-control.right {
+    right: 195px;
+}
+
+.hero-section {
+    background-image: url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/man-with-nose-mask.png');
+    padding: 50px 0 75px 0;
+    position: relative;
+}
+#hero-section {
+    z-index: 9999;
+}
+
+.flueon-header {
+    position: absolute;
+    top: -15%;
+    right: 0;
+    width: 150px;
+}
+ul.navbar-nav.ml-auto.p {
+    margin-right: 150px;
+}
+
+.green-corona-2 {
+    position: absolute;
+    width: 300px;
+    bottom: -20%;
+    left: -2%;
+}
+
+.location {
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.bg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/fmn-man-van.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.bg2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://flourmills.s3.eu-central-1.amazonaws.com/covid-img/images/fmn-man-van.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.divider {
+    margin: 40px 0;
+    border-top: 1px solid green;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.form-control,
+.form-control-lg {
+    border: 1px solid black;
+    border-radius: 0 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact-us {
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-icon {
+    font-size: 40px;
+}
+
+.modal .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    /* margin-left: -90px; */
+    color: #fff;
+    opacity: 100%;
+    font-size: 50px;
+}
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0;
+    background: #fff;
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0.3rem;
+    outline: 0;
+    z-index: 10000000;
+}
+.modal {
+    width: 100vw;
+    z-index: 105000;
+}
+.carousel-item > p {
+    padding: 20px;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.2em;
+    /* padding: 10px; */
+    font-weight: 100;
+}
+.small,
+small {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1.index-hero-section {
+    margin-top: -10%;
+    font-family: var(--font-bold);
+}
+i.fa.fa-bars {
+    color: green;
+}
+
+#fp-nav ul {
+    list-style: none;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    transition: opacity 0.3s ease;
+}
+#employees-project {
+    padding-top: 3em;
+}
+
+#intervention {
+    z-index: 99;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0;
+    }
+    .hero-section {
+        padding: 50px 0 50px 0;
+    }
+    .header-logo {
+        height: 70px;
+    }
+    .location {
+        padding-top: 10%;
+    }
+    .location-summary {
+        font-weight: 100 !important;
+    }
+    .carousel-indicators.green {
+        bottom: -2%;
+    }
+    .carousel-indicators {
+        bottom: -15%;
+    }
+    h1.index-hero-section,
+    h1 {
+        font-size: 32px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h2.my-4 {
+        font-size: 26px;
+    }
+    .flueon {
+        bottom: -10%;
+    }
+    .flueon-2 {
+        bottom: -8%;
+    }
+    .flueon-3 {
+        width: 100vw;
+        bottom: -2%;
+    }
+    .green-corona {
+        width: 130px;
+    }
+    .pad3 {
+        padding-bottom: 1em;
+        color: #fff;
+        font-size: 26px;
+    }
+    .pad2 {
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+    }
+    .logo {
+        height: 70px;
+    }
+    .row.p {
+        width: 100%;
+    }
+    .supporter-logo {
+        width: 100%;
+    }
+    .col-small-3 {
+        width: 33%;
+    }
+    .footer-text {
+        font-size: 12px;
+        line-height: 1.2em;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+    }
+    #footer {
+        padding: 10px;
+    }
+    .small,
+    small {
+        font-size: 10px;
+        text-align: center;
+        /* font-weight: 400; */
+    }
+    .header-text {
+        font-size: 18px;
+    }
+    .bg2 {
+        height: 400px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 8px;
+    width: 8px;
+    border: 0;
+    background: green;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+#fp-nav ul li a,
+.fp-slidesNav ul li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    /* width: 100%; */
+    /* height: 100%; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#fp-nav ul li a.active span {
+    background-color: transparent;
+}
+#fp-nav ul li a.active span.fp-sr-only {
+    background-color: transparent;
+}
+#fp-nav ul li a.active {
+    background-color: greenyellow;
+    height: 2em !important;
+    border-radius: 70px;
+}
+#fp-nav ul li,
+.fp-slidesNav ul li {
+    display: block;
+    width: 14px;
+    height: 13px;
+    margin: 7px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+#abuja,
+#cross-river,
+#medical-supplies,
+#golden-sugar,
+#food-relief,
+#ekiti,
+#ogun,
+#niger,
+#kwara,
+#borno,
+#kaduna,
+#kano,
+#osun,
+#oyo,
+#rivers,
+#sokoto,
+#lagos,
+#edo {
+    display: none;
+}

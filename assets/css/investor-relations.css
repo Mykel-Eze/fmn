@@ -1,0 +1,456 @@
+.reports-holder {
+  background-color: #f4f4f5;
+  padding: 30px 40px 20px;
+  margin-top: 20px;
+  position: relative;
+}
+img.triangle {
+  position: absolute;
+  top: -20px;
+  left: 10%;
+}
+#financial-results img.triangle {
+  left: 8.5%;
+}
+#events-and-presentation img.triangle {
+  left: 34.5%;
+}
+#investor-information img.triangle {
+  left: 59.5%;
+}
+#policies img.triangle {
+  left: 84.5%;
+}
+
+p.mts-p-txt {
+  font-size: 16px;
+}
+a.download-link {
+  font-weight: 700;
+}
+a.download-link i.material-icons {
+  position: relative;
+  top: 7px;
+}
+.theme-light .gray-bg {
+  background-color: #f4f4f5;
+}
+.theme-dark .gray-bg {
+  color: #ffffff;
+}
+.gray-bg-2 {
+  background-color: #E0E0E0;
+}
+
+section#_2020-files {
+  margin: 50px 0 30px;
+}
+.quote-wrapper {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  color: black;
+}
+.chairman-details {
+  font-family: var(--font);
+  margin-top: 20px;
+}
+.chairman-details img {
+  width: 80px;
+}
+.chairman-role {
+  font-size: 12px;
+}
+h5.chairman-name {
+  font-family: var(--font);
+  color: #65B3B5;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.chairman-details > div {
+  position: relative;
+  top: 15px;
+  margin-left: 10px;
+}
+.p-quote-wrapper > div{
+  /* height: 240px; */
+  overflow: hidden;
+  padding-bottom: 32px;
+  text-align: justify;
+  position: relative;
+}
+.p-quote-wrapper > div:hover{
+  overflow-y: scroll;
+  padding-right: 18px;
+}
+.p-quote-wrapper > div::-webkit-scrollbar {
+	width: 12px;
+}
+.p-quote {
+  font-size: 18px;
+}
+img.quote-img {
+  position: absolute;
+  width: 60px;
+  top: -20px;
+  left: -50px;
+}
+img.quote-overlay{
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  left: 0;
+  height: 120px;
+  z-index: 1;
+  transition: all 1s;
+}
+img.quote-overlay:hover + div {
+  overflow-y: scroll;
+  padding-right: 18px;
+}
+img.quote-overlay:hover {
+  height: 30px;
+}
+
+._2020-files-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px 10px;
+}
+._2020-file-block {
+  padding: 0 60px;
+  padding-bottom: 40px;
+  position: relative;
+  border-right: 1px solid #979797;
+}
+._2020-file-block:nth-child(3n) {
+  border-right: none;
+}
+.file-block-txt {
+  font-family: var(--font-smbold);
+  font-size: 20px;
+}
+.theme-light .file-block-txt {
+  color: #60646C;
+}
+.theme-dark .file-block-txt {
+  color: #ffffff;
+}
+._2020-file-block a.download-link {
+  position: absolute;
+  bottom: 10px;
+  /* left: 60px; */
+}
+._2020-file-block:first-child a.download-link {
+  left: 0;
+}
+img.file-block-img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.flex-div-v-lg {
+  background-color: #f4f4f5;
+  position: relative;
+}
+
+.memeber-wrap{
+  display: grid;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  grid-gap: 20px;
+}
+.address-div {
+  display: flex;
+}
+img.regr-contact-icon{
+  width: 18px;
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+.address-div img.regr-contact-icon {
+  position: relative;
+  align-self: baseline;
+}
+.or-hr-div{
+  position: absolute;
+  width: 1px;
+  height: 80%;
+  top: 10%;
+  left: 52%;
+  border: none;
+  background: black;
+}
+
+section#stock-exchange {
+  margin: 50px 0 40px;
+}
+.pry-bg.nse-details {
+  border-bottom: 5px solid #E0E46B;
+  padding: 40px 0 25px;
+}
+#stock-exchange tr {
+  border-bottom: none;
+}
+h2.stock-name {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+img.nse-logo {
+  width: 40px;
+}
+hr.stock-name-line {
+  border: none;
+  background: white;
+  height: 1.5px;
+  width: 33%;
+}
+h1.stock-price {
+  font-family: var(--font-bold);
+  margin: 0;
+  color: #E0E46B;
+}
+table.stock-details-table {
+  margin-left: 3%;
+}
+table.stock-details-table td {
+  padding: 3px 6px;
+}
+.stock-time {
+  font-size: 11px;
+  margin-top: 60px;
+}
+.stock-graph h5.bold-txt {
+  font-size: 1.4rem;
+}
+button.stock-btn {
+  background-color: #84C590;
+  color: white;
+  border: none;
+  padding: 2px 5px;
+  font-size: 13px;
+  border-radius: 2px;
+  margin: 0 2px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.explore-link {
+  font-weight: 700;
+  color: #6C707A;
+  font-size: 12px;
+}
+.explore-link i.material-icons {
+  position: relative;
+  top: 7px;
+  font-size: 20px;
+}
+
+#reports-tabs {
+  padding: 10px 0 30px;
+}
+.reports-tab-wrapper {
+  display: grid;
+  grid-template-columns: calc(25% - 22px) calc(25% - 22px) calc(25% - 22px) calc(25% - 22px);
+  grid-gap: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.reports-tab-wrapper > li{
+  transition: all 1s !important;
+}
+.reports-tab-wrapper > li:hover{
+  transform: scale(1.03);
+}
+.report-tab {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px !important;
+  color: #6C707A !important;
+  padding: 26px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+}
+.theme-dark .report-tab {
+  color: #fff !important;
+}
+.green-div {
+  border-bottom: 3px solid #80C442;
+}
+.green-div i.material-icons {
+  color: #80C442;
+}
+.orange-div {
+  border-bottom: 3px solid #F9D200;
+}
+.orange-div i.material-icons {
+  color: #F9D200;
+}
+.teal-div {
+  border-bottom: 3px solid #65B3B5;
+}
+.teal-div i.material-icons {
+  color: #65B3B5;
+}
+.pink-div {
+  border-bottom: 3px solid #e5b3b5;
+}
+.pink-div i.material-icons {
+  color: #e5b3b5;
+}
+img.rt-icon {
+  width: 50px;
+}
+p.rt-desc {
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  height: 25px;
+  overflow: hidden;
+}
+h5.rt-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+p.expl-link-div {
+  margin: 12px 0px 6px;
+}
+
+@media (min-width: 1281px) {
+  .flex-div-v-lg {
+    display: flex;
+  }
+
+  .fll-or {
+    width: 100% !important;
+  }
+
+  .registrar-contacts > div {
+    height: calc(100% - 20px);
+  }
+}
+
+@media(min-width: 993px) {
+  .p-left-l-0 {
+    padding-left: 0;
+  }
+  .p-right-l-0 {
+    padding-right: 0;
+  }
+  .mg-top-l-0 {
+    margin-top: 0;
+  }
+  .right-l {
+    float: right !important;
+  }
+  .ppr-img-div img {
+    position: absolute;
+    height: 100%;
+    width: calc(33.3% - 10px) !important;
+  }
+  .ppr-txt-div {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  ._2020-file-block:first-child, ._2020-file-block:nth-child(3n + 1) {
+    padding-left: 0;
+  }
+}
+
+@media(max-width: 992px) {
+  .or-hr-div{
+    display: none;
+  }
+  ._2020-files-wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
+  ._2020-file-block {
+    padding: 0 30px;
+    padding-bottom: 40px;
+    border-right: none;
+  }
+  ._2020-file-block:first-child, ._2020-file-block:nth-child(odd) {
+    padding-left: 0;
+    border-right: 1px solid #979797;
+  }
+  /* ._2020-file-block a.download-link {
+    left: 30px;
+  } */
+  .p-quote-wrapper > div{
+    max-height: 360px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ppr-txt-div h3 {
+    font-size: 2.3rem;
+  }
+  img.quote-img {
+    top: -40px;
+    left: 0;
+  }
+  .chairman-details > div {
+    top: 10px;
+  }
+  .chairman-details img {
+    width: 60px;
+  }
+  h5.chairman-name {
+    font-size: 1.4rem;
+  }
+  ._2020-files-wrapper{
+    grid-template-columns: 100%;
+  }
+  ._2020-file-block{
+    padding-left: 15px !important;
+    padding-bottom: 30px;
+    margin-bottom: 20px ;
+    border: none !important;
+  }
+  ._2020-file-block:first-child {
+    padding-left: 30px;
+  }
+  ._2020-file-block:first-child a.download-link {
+    left: 30px;
+  }
+  .stock-graph {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .p-quote-wrapper > div{
+    height: 90vh;
+  }
+
+  /* .reports-tab-wrapper {
+    grid-template-columns: 100%;
+  } */
+  .rt-title, .rt-desc, .expl-link-div {
+    display: none;
+  }
+  .reports-holder {
+    padding: 10px 10px;
+  }
+  .reports-holder h4.visible-xs {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+  }
+  .report-tab {
+    padding: 16px 0 !important;
+    text-align: center;
+  }
+  #financial-results img.triangle {
+    left: 0.5%;
+  }
+  #events-and-presentation img.triangle {
+    left: 27.5%;
+  }
+  #investor-information img.triangle {
+    left: 54.5%;
+  }
+  #policies img.triangle {
+    left: 82.5%;
+    width: 50px;
+  }
+}

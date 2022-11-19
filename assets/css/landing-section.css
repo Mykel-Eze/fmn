@@ -1,0 +1,331 @@
+.carousel.full-height {
+    height: 100% !important;
+}
+#home > .row {
+    position: relative;
+}
+#home > .row::before {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+#home .carousel-item {
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: 10; */
+}
+#home .carousel-item::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+}
+#home-slide-1 {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/home-bg-1.jpg);
+}
+#home-slide-2 {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/home-bg-2a.jpg);
+}
+#home-slide-3 {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/home-bg-3a.jpg);
+}
+#home-slide-4 {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/home-bg-4a.jpg);
+}
+.main-txt-container {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+}
+img.virus-img {
+    width: 25px;
+    position: relative;
+    top: 4px;
+    margin-right: 7px;
+}
+.bold-txt {
+    font-family: var(--font-bold);
+    font-weight: bold;
+}
+span.main-subtxt {
+    font-size: 20px;
+    font-family: var(--cocon-bold);
+}
+.main-btn-wrapper {
+    margin-top: 40px;
+}
+hr.main-txt-line {
+    width: 220px;
+    margin-left: 0;
+    color: white;
+}
+small.super-sub {
+    font-family: var(--font-xlite);
+    font-weight: 100;
+    font-size: 16px;
+    position: absolute;
+    top: -30px;
+}
+.explore-btn {
+    background: var(--pry-color);
+    border: none;
+    padding: 15px 20px;
+    font-size: 13px;
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+.theme-dark #home .explore-btn {
+    background-color: var(--sec-color);
+    color: #000000;
+}
+.explore-btn:focus {
+    background: var(--pry-color);
+}
+.explore-btn img {
+    width: 40px;
+    margin-left: 7px;
+    position: relative;
+    top: 7px;
+}
+.explore-btn img.light-arrow {
+    display: initial;
+}
+.explore-btn img.dark-arrow {
+    display: none;
+}
+.theme-dark .explore-btn img.light-arrow {
+    display: none;
+}
+.theme-dark .explore-btn img.dark-arrow {
+    display: initial;
+}
+
+/* .rotate-txt-right {
+    transform: rotate(90deg);
+    height: 10%;
+} */
+hr.rotate-hr-right {
+    border: none;
+    height: 3px;
+    background: white;
+    width: 100px;
+    transform: rotate(90deg);
+}
+/* .carousel.carousel-slider .carousel-fixed-item.flex-div {
+    width: calc(100vh - 80px);
+    transform: rotate(90deg);
+    bottom: 0;
+    top: 0;
+    right: inherit;
+    left: calc(2vw + 15px);
+    align-items: flex-end;
+    max-width: 600px;
+    padding: 0 30px;
+} */
+.carousel-fixed-item.flex-div {
+    width: auto;
+    left: auto;
+    max-width: inherit;
+    transform: rotate(180deg) translateX(0);
+    right: 0;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    padding: 15px 30px;
+    height: 85%;
+    align-items: center;
+    position: absolute;
+    bottom: 7.5%;
+    z-index: 10;
+    max-height: 520px;
+}
+#home .carousel-item .container {
+    position: relative;
+    z-index: 1;
+}
+.rotate-txt-right,
+.rotate-hr-right {
+    position: relative;
+    /* top: -17px; */
+    font-size: 12px;
+}
+.home-social-links a img {
+    padding: 3px;
+    transform: rotate(90deg);
+    width: 35px;
+}
+.carousel-nav {
+    position: relative;
+    width: 100%;
+    text-align: right;
+}
+.carousel-nav button {
+    padding: 5px 20px;
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    width: 43%;
+    border: none;
+}
+button.prevtBtn {
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    left: 4.7px;
+}
+button.nextBtn {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+.carousel-nav button img {
+    width: 15px;
+}
+.fx-scroll-list {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+    /* background: linear-gradient(to right, black, rgba(226, 226, 226, 0.1), black); */
+}
+.fx-scroll-list p {
+    display: inline-block;
+    /* padding-left: 100%; */
+    margin: 8px 0;
+    /* animation: marquee 30s linear infinite; */
+    color: black;
+}
+.theme-dark .fx-scroll-list p {
+    color: white;
+}
+.theme-dark .fx-scroll-list p .pry-color {
+    color: var(--sec-color);
+}
+.soc-logo-1 {
+    display: initial;
+}
+.soc-logo-2 {
+    display: none;
+}
+.home-social-links a:hover .soc-logo-1 {
+    display: none;
+}
+.home-social-links a:hover .soc-logo-2 {
+    display: initial;
+}
+.stock-widget {
+    background: rgba(0, 123, 71, 0.6);
+    position: fixed;
+    top: 25%;
+    right: 0;
+    padding: 10px 20px;
+    border-radius: 12px 0 0 12px;
+    z-index: 1000;
+    opacity: 0;
+}
+.stock-widget.stock-widget-show {
+    opacity: 1;
+}
+.stock-price.center {
+    font-size: 0.7rem;
+}
+.stock-price span {
+    font-weight: bold;
+    font-size: 16px;
+}
+.stock-raise span {
+    background: var(--sec-color);
+    font-family: var(--font-bold);
+    padding: 5px;
+    display: block;
+    color: black;
+    margin: 5px 0;
+    font-size: 12px;
+    line-height: 1;
+}
+.stock-title h5 {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 5px 0 2px;
+}
+.stock-date {
+    font-size: 11px;
+}
+span.stock-up {
+    color: green;
+}
+span.stock-down {
+    color: red;
+}
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+@media (min-width: 993px) {
+    .carousel.full-height {
+        z-index: 10000;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1500px) {
+    /* .carousel-fixed-item.flex-div {
+        left: 150px;
+    } */
+}
+@media (max-width: 992px) {
+    .carousel-fixed-item.flex-div {
+        display: none;
+    }
+    /* #home .carousel-item{
+        background-position: center right;
+    } */
+    .stock-widget {
+        position: absolute;
+        top: 20%;
+        z-index: 1;
+    }
+}
+/* @media (max-width: 1280px) and (min-width: 993px) and (min-height: 900px) {
+    .carousel-fixed-item.flex-div {
+        left: calc(12vw + 15px);
+        transform: rotate(90deg) translateX(-10.8%);
+    }
+}
+@media (max-width: 1399px) and (min-width: 1300px) and (min-height: 600px) {
+    .carousel-fixed-item.flex-div {
+        left: calc(8vw + 15px);
+        transform: rotate(90deg) translateX(-3.8%);
+    }
+} */
+@media (max-width: 600px) {
+    #home-slide-1 {
+        background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/mobile-bg1.jpg);
+    }
+    #home-slide-2 {
+        background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/mobile-bg2.jpg);
+    }
+    #home-slide-3 {
+        background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/mobile-bg3.jpg);
+    }
+    #home-slide-4 {
+        background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/mobile-bg4.jpg);
+    }
+
+    small.super-sub {
+        top: -30px;
+        right: 10px;
+    }
+    .stock-widget {
+        display: none;
+    }
+}

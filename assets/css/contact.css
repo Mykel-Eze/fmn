@@ -1,0 +1,145 @@
+.theme-light a{
+    color: black;
+}
+.theme-dark a{
+    color: #60646C;
+}
+#body-div a:hover{
+    text-decoration: underline;
+}
+.theme-light h5, .bold-txt{
+    color: #60646C;
+}
+.bold-txt {
+    font-family: var(--font);
+    font-weight: 600;
+}
+.social-links {
+    margin: 10px 0;
+}
+a.social-icon {
+    margin: 0 2px;
+}
+a.social-icon img {
+    width: 30px;
+}
+.contact-img-div img {
+    width: 50px;
+    position: relative;
+    top: 2px;
+}
+.select-wrapper .caret{
+    z-index: 1;
+}
+h5.pref-platform-txt {
+    font-size: 1.48rem;
+    line-height: 1;
+}
+
+button.submit-btn {
+    background: #6c707a !important;
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.select-wrapper .caret{
+    right: 2px;
+    z-index: 1;
+}
+.locations-div.gray-bg {
+    padding: 0;
+    margin-top: 0;
+}
+.location .bold-txt{
+    font-size: 13px;
+    line-height: 1.2;
+}
+.addr {
+    line-height: 1.2;
+    font-size: 13px;
+    font-family: var(--font-lite);
+    color: #60646C;
+}
+.location {
+    margin: 15px 0;
+}
+.contact-detail-div i.material-icons.pry-color {
+    font-size: 10px;
+}
+.contact-detail-div a {
+    width: 100%;
+    line-height: 1.5;
+}
+.contact--div {
+    margin: 15px 0 20px;
+}
+.cddd{
+    position: relative;
+    top: -3px;
+}
+h5.bold-txt{
+    font-weight: 600;
+    font-family: var(--font);
+}
+section#map-div {
+    margin-top: -30px;
+}
+
+.contact-detail-div i.material-icons.pry-color {
+    font-size: 10px;
+}
+.contact-detail-div a {
+    width: 100%;
+    line-height: 1.5;
+}
+.cddd{
+    position: relative;
+    top: -3px;
+}
+.collapsible .location:first-child {
+    margin-top: 0px !important;
+}
+img.d-arrow {
+    position: absolute;
+    right: 5%;
+    width: 15px;
+    top: 40%;
+    transition: 1s;
+}
+.collapsible-header.rel {
+    font-weight: 600;
+    color: #60646C;
+}
+.active img.d-arrow {
+    transform: rotate(180deg);
+}
+@media(max-width: 360px){
+    h5.pref-platform-txt {
+        font-size: 1.38rem;
+        line-height: 1;
+    }
+}
+@media(max-width: 992px){
+    /* .contact-detail-div i.material-icons.pry-color{
+        display: none;
+    } */
+    .contact-img-div img {
+        width: 35px;
+    }
+}
+@media(max-width: 600px){
+    #map-div .container{
+        width: 100%;
+    }
+    .mapouter, .gmap_canvas, .gmap_canvas iframe{
+        height: 200px !important;
+    }
+    .form-div {
+        margin-bottom: 30px;
+    }
+    .locations-div.gray-bg {
+        padding: 10px;
+    }
+}

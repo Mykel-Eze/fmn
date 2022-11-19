@@ -1,0 +1,38 @@
+.search-result {
+    font-size: 14px;
+    border: 1px solid;
+    padding: 0 20px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.search-result h5{
+    font-size: 20px;
+}
+.search-result h5 small {
+    font-size: 70%;
+}
+input#search-all {
+    border: none;
+    background: #EFEFEF;
+    height: 3.5rem;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 0 15px;
+    width: calc(100% - 30px);
+}
+button#si2 {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    border: none;
+}
+button#si2 img{
+    width: 20px;
+}
+button#si2:focus{
+    background-color: transparent;
+}
+input#search-all {
+    /* border-bottom: 1px solid var(--pry-color); */
+    box-shadow: 0 1px 0 0 var(--pry-color);
+}

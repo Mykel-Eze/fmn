@@ -1,0 +1,44 @@
+{
+    "name": "fmn-group",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt-ts build && nuxt generate",
+        "start": "nuxt-ts start",
+        "export": "nuxt-ts export",
+        "serve": "nuxt-ts serve",
+	"prod": "nuxt-ts build"
+    },
+    "dependencies": {
+        "@nuxt/typescript-runtime": "^0.4.10",
+        "@nuxtjs/axios": "^5.11.0",
+        "@popperjs/core": "^2.5.2",
+        "algoliasearch": "^4.3.0",
+        "bootstrap": "^4.5.2",
+        "bootstrap-vue": "^2.17.3",
+        "chart.js": "^2.9.3",
+        "cheerio": "^1.0.0-rc.3",
+        "jquery": "^3.5.1",
+        "material-design-icons": "^3.0.1",
+        "materialize-css": "^1.0.0",
+        "moment": "^2.27.0",
+        "net": "^1.0.2",
+        "nuxt": "^2.13.0",
+        "request": "^2.88.2",
+        "sass-loader": "^10.0.2",
+        "tls": "0.0.1",
+        "vue": "^2.6.12",
+        "vue-chartkick": "^0.6.1",
+        "vue-fullpage.js": "^0.1.6",
+        "vue-social-sharing": "^3.0.0-beta.11",
+        "webpack": "^4.44.2"
+    },
+    "devDependencies": {
+        "@nuxt/typescript-build": "^1.0.3",
+        "@nuxtjs/google-analytics": "^2.4.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.0.5"
+    }
+}

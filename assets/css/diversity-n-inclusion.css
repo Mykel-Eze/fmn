@@ -1,0 +1,480 @@
+.women-img-wrapper {
+    margin: 30px 0;
+}
+img.women-network {
+    width: 50%;
+    max-width: 500px;
+}
+
+.diversity-stat-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    margin: 40px auto 30px;
+    align-items: center;
+}
+img.diversity-vector-ladies {
+    max-width: 250px;
+}
+.dsw-img-block {
+    margin: 0 30px;
+}
+.dsw-txt-block p {
+    font-size: 16px;
+}
+
+.txt-secc {
+    background-color: #f4f4f5;
+    padding: 90px 25px 20px;
+    color: black;
+}
+.txt-secc p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.title-secc-bar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.list-secc {
+    padding-left: 20px;
+}
+
+.list-secc li {
+    list-style-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/brown-tick.svg);
+    padding: 5px 0 5px 10px;
+}
+
+.row.sec2 {
+    margin-bottom: 40px;
+}
+h4.report-section-title {
+    margin-bottom: 20px;
+}
+
+.tabs {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin: auto;
+    white-space: normal;
+    white-space: initial;
+}
+.programmes-tab-wrapper.tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px auto;
+}
+.programmes-tab-wrapper > li {
+    transition: all 1s !important;
+}
+.tabs .tab {
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+    line-height: initial;
+    height: auto;
+    height: initial;
+    padding: 0;
+    margin: 0;
+    text-transform: none;
+}
+.tab,
+.tab:focus {
+    border: none;
+    outline: none;
+}
+.tabs .tab a.programmes-block {
+    color: #363636;
+    padding: 0 !important;
+    cursor: pointer !important;
+    background: #f4f4f5;
+}
+.tabs .tab a.programmes-block:hover,
+.tabs .tab a.programmes-block.active {
+    background-color: #5a5a5a;
+    color: #fff;
+}
+/* .theme-dark .tabs .tab a.programmes-block {
+  color: white;
+} */
+.programme-img {
+    max-width: 100%;
+}
+.programme-block-desc {
+    text-align: center;
+    margin: 0;
+}
+.programme-block-desc p {
+    margin: 5px auto;
+}
+
+.programme-desc-content {
+    background-color: #f4f4f5;
+    padding: 30px 40px 20px !important;
+    margin-top: 20px;
+    position: relative;
+    height: 220px;
+    /* overflow: hidden; */
+    padding-bottom: 20px;
+}
+.programme-desc-content::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(238, 238, 238, 0.0001) 0%,
+        #f4f4f5 83.01%
+    );
+    width: 100%;
+    height: 40%;
+}
+.programme-desc-content:hover {
+    overflow: auto;
+}
+.programme-desc-content:hover::before {
+    display: none;
+}
+.programme-desc-content p {
+    color: #363636;
+    font-size: 16px;
+    line-height: 26px;
+}
+img.triangle {
+    position: absolute;
+    top: -20px;
+    left: 10%;
+}
+#programme-1 img.triangle {
+    left: 8.5%;
+}
+#programme-2 img.triangle {
+    left: 34.5%;
+}
+#programme-3 img.triangle {
+    left: 59.5%;
+}
+#programme-4 img.triangle {
+    left: 84.5%;
+}
+
+.green-div {
+    border-bottom: 3px solid #80c442;
+}
+.green-div i.material-icons {
+    color: #80c442;
+}
+.orange-div {
+    border-bottom: 3px solid #f9d200;
+}
+.orange-div i.material-icons {
+    color: #f9d200;
+}
+.teal-div {
+    border-bottom: 3px solid #65b3b5;
+}
+.teal-div i.material-icons {
+    color: #65b3b5;
+}
+.pink-div {
+    border-bottom: 3px solid #e5b3b5;
+}
+.pink-div i.material-icons {
+    color: #e5b3b5;
+}
+h4.p-content-title {
+    display: none;
+}
+
+#our-amazing-amazon {
+    margin-top: 50px;
+}
+.video-row-wrapper {
+    /* display: grid;
+  grid-template-columns: 15% 1fr 15%;
+  grid-gap: 20px; */
+    margin: 50px auto;
+}
+.empty-gray-block {
+    background: #979797;
+    box-sizing: border-box;
+    /* width: 20%; */
+    height: 90%;
+    position: relative;
+    top: 5%;
+    /* cursor: pointer; */
+}
+#amazon-video-carousel.carousel .carousel-item {
+    width: 80%;
+    height: 100%;
+    min-width: 200px;
+    cursor: default;
+}
+/* .amazon-video-container {
+  margin: 0 20px;
+} */
+img.play-video-icon.modal-trigger {
+    position: absolute;
+    max-width: 120px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+.hover-scale {
+    transition: all 1.5s !important;
+}
+.hover-scale:hover {
+    transform: scale(1.1);
+}
+
+img.partnership-side-logo {
+    display: none;
+    width: auto;
+    max-width: 100px;
+}
+img.partnership-side-logo.active-psl {
+    display: initial;
+}
+.partnership-sec-header.flex-div {
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.txt-indicator-block {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 30px;
+}
+img.int-img {
+    display: none;
+    width: 100%;
+}
+img.int-img.active-int-img {
+    display: initial;
+}
+h4.indicator-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    margin-top: 0;
+    color: #363636;
+    font-family: var(--font-lite);
+}
+.active-indicator-block h4.indicator-title {
+    font-size: 28px;
+    line-height: 38px;
+    color: #275130;
+}
+.theme-dark h4.indicator-title {
+    color: #f4f4f5;
+}
+.theme-dark .active-indicator-block h4.indicator-title {
+    color: var(--pry-color);
+}
+/* li.txt-indicator-block:not(.active-indicator-block) .indicator-txt-wrapper {
+  margin-left: 90px;
+} */
+.indicator-icon-wrapper {
+    width: 250px;
+    margin-right: 25px;
+    opacity: 0;
+}
+.active-indicator-block .indicator-icon-wrapper {
+    opacity: 1;
+}
+.txt-indicator-block {
+    position: relative;
+    padding: 5px 20px;
+}
+
+@media (min-width: 993px) {
+    #amazon-video-carousel.carousel {
+        height: 650px;
+    }
+}
+@media (min-width: 1281px) {
+    .df-bg {
+        background: var(--pry-color);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 103% !important;
+    }
+
+    .dfb {
+        width: 100% !important;
+        display: flex;
+    }
+
+    .dfb .txt-secc {
+        width: 100%;
+    }
+
+    .txt-secc-wrapper1,
+    .txt-secc-wrapper2 {
+        background-image: none;
+    }
+
+    .txt-secc-wrapper1 .df-bg {
+        background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/diversity-objectives.jpg);
+    }
+}
+
+@media (max-width: 1280px) {
+    .df-bg {
+        display: none;
+    }
+}
+
+@media (min-width: 601px) {
+    .txt-secc-wrapper1 {
+        background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/diversity-objectives.jpg);
+        background-size: contain;
+        background-position: center left;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1281px) {
+    .txt-secc-wrapper1 {
+        background-size: cover;
+        background-position: inherit;
+    }
+}
+
+@media (max-width: 992px) {
+    .diversity-stat-wrapper {
+        width: 100%;
+    }
+    img.diversity-vector-ladies {
+        width: 100%;
+    }
+    .programme-block-desc {
+        display: none;
+    }
+    h4.p-content-title {
+        display: block;
+        margin-top: 0;
+        font-size: 24px;
+        font-family: var(--font);
+        letter-spacing: -1px;
+        font-weight: bold;
+    }
+
+    .programme-desc-content {
+        height: auto;
+        overflow: visible;
+        min-height: 300px;
+    }
+    .programme-desc-content::before {
+        display: none;
+    }
+
+    #programme-1 {
+        border-bottom: 3px solid #80c442;
+    }
+    #programme-2 {
+        border-bottom: 3px solid #f9d200;
+    }
+    #programme-3 {
+        border-bottom: 3px solid #65b3b5;
+    }
+    #programme-4 {
+        border-bottom: 3px solid #e5b3b5;
+    }
+}
+@media (min-width: 601px) and (max-width: 992px) {
+    .txt-secc-wrapper1 {
+        background-size: cover;
+    }
+    .txt-secc-wrapper1 {
+        background-position: right;
+    }
+    #amazon-video-carousel.carousel {
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .txt-secc {
+        padding: 85px 15px 15px;
+        color: black;
+    }
+    .diversity-stat-wrapper {
+        flex-direction: column;
+    }
+    .dsw-img-block {
+        margin: 30px 0;
+    }
+
+    .video-row-wrapper {
+        grid-template-columns: 100%;
+    }
+    .empty-gray-block {
+        display: none;
+    }
+
+    img.women-network {
+        width: 90%;
+        max-width: 500px;
+    }
+    .dsw-txt-block p {
+        text-align: center;
+        font-family: var(--font);
+        font-weight: 500;
+    }
+
+    .programme-desc-content {
+        padding: 30px 30px 20px !important;
+    }
+    #programme-1 img.triangle {
+        left: 0.5%;
+    }
+    #programme-2 img.triangle {
+        left: 27.5%;
+    }
+    #programme-3 img.triangle {
+        left: 54.5%;
+    }
+    #programme-4 img.triangle {
+        left: 82.5%;
+        width: 50px;
+    }
+
+    img.diversity-vector-ladies {
+        width: 60%;
+    }
+
+    li.txt-indicator-block {
+        padding: 5px 10px;
+        grid-gap: 20px;
+    }
+    .active-indicator-block h4.indicator-title {
+        font-size: 24px;
+        line-height: 32px;
+        font-family: var(--font-bold);
+    }
+
+    #amazon-video-carousel.carousel {
+        height: 200px;
+    }
+}

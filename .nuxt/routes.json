@@ -1,0 +1,387 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_d68d9082"
+  },
+  {
+    "name": "abtl",
+    "path": "/abtl",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\abtl.vue",
+    "chunkName": "pages/abtl",
+    "_name": "_9c3fcdd2"
+  },
+  {
+    "name": "agm-2021-live",
+    "path": "/agm-2021-live",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\agm-2021-live.vue",
+    "chunkName": "pages/agm-2021-live",
+    "_name": "_5333b028"
+  },
+  {
+    "name": "agro-allied",
+    "path": "/agro-allied",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\agro-allied\\\\index.vue",
+    "chunkName": "pages/agro-allied/index",
+    "_name": "_427d0ebf"
+  },
+  {
+    "name": "approach",
+    "path": "/approach",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\approach.vue",
+    "chunkName": "pages/approach",
+    "_name": "_498cd034"
+  },
+  {
+    "name": "awards",
+    "path": "/awards",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\awards.vue",
+    "chunkName": "pages/awards",
+    "_name": "_71346718"
+  },
+  {
+    "name": "awards-and-accolades",
+    "path": "/awards-and-accolades",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\awards-and-accolades.vue",
+    "chunkName": "pages/awards-and-accolades",
+    "_name": "_2233cdc0"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\blog\\\\index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_248d12a2"
+  },
+  {
+    "name": "board",
+    "path": "/board",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\board.vue",
+    "chunkName": "pages/board",
+    "_name": "_f654a2d0"
+  },
+  {
+    "name": "careers",
+    "path": "/careers",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\careers.vue",
+    "chunkName": "pages/careers",
+    "_name": "_19c68a67"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_4dc71852"
+  },
+  {
+    "name": "cookies-policy",
+    "path": "/cookies-policy",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\cookies-policy.vue",
+    "chunkName": "pages/cookies-policy",
+    "_name": "_64da45ee"
+  },
+  {
+    "name": "d-a-i",
+    "path": "/d-a-i",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\d-a-i.vue",
+    "chunkName": "pages/d-a-i",
+    "_name": "_6fd90dc6"
+  },
+  {
+    "name": "diversity-and-inclusion",
+    "path": "/diversity-and-inclusion",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\diversity-and-inclusion.vue",
+    "chunkName": "pages/diversity-and-inclusion",
+    "_name": "_ded9c338"
+  },
+  {
+    "name": "divisions",
+    "path": "/divisions",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\index.vue",
+    "chunkName": "pages/divisions/index",
+    "_name": "_247e7d2c"
+  },
+  {
+    "name": "feeding-the-nation",
+    "path": "/feeding-the-nation",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\feeding-the-nation.vue",
+    "chunkName": "pages/feeding-the-nation",
+    "_name": "_1b6c4aca"
+  },
+  {
+    "name": "foods",
+    "path": "/foods",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\foods\\\\index.vue",
+    "chunkName": "pages/foods/index",
+    "_name": "_56b65e9b"
+  },
+  {
+    "name": "gallery",
+    "path": "/gallery",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\gallery.vue",
+    "chunkName": "pages/gallery",
+    "_name": "_6988faf8"
+  },
+  {
+    "name": "gtc",
+    "path": "/gtc",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\gtc.vue",
+    "chunkName": "pages/gtc",
+    "_name": "_7152f748"
+  },
+  {
+    "name": "history-heritage",
+    "path": "/history-heritage",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\history-heritage.vue",
+    "chunkName": "pages/history-heritage",
+    "_name": "_545db156"
+  },
+  {
+    "name": "investor-relations",
+    "path": "/investor-relations",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\investor-relations.vue",
+    "chunkName": "pages/investor-relations",
+    "_name": "_54a18a80"
+  },
+  {
+    "name": "investor-relations-old",
+    "path": "/investor-relations-old",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\investor-relations-old.vue",
+    "chunkName": "pages/investor-relations-old",
+    "_name": "_8ed7e6cc"
+  },
+  {
+    "name": "logistics",
+    "path": "/logistics",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\logistics.vue",
+    "chunkName": "pages/logistics",
+    "_name": "_309a9e45"
+  },
+  {
+    "name": "management-team",
+    "path": "/management-team",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\management-team.vue",
+    "chunkName": "pages/management-team",
+    "_name": "_c705874e"
+  },
+  {
+    "name": "post-page",
+    "path": "/post-page",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\post-page.vue",
+    "chunkName": "pages/post-page",
+    "_name": "_cdafb164"
+  },
+  {
+    "name": "press-release",
+    "path": "/press-release",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\press-release\\\\index.vue",
+    "chunkName": "pages/press-release/index",
+    "_name": "_c5b3ba1a"
+  },
+  {
+    "name": "priority-areas",
+    "path": "/priority-areas",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\priority-areas\\\\index.vue",
+    "chunkName": "pages/priority-areas/index",
+    "_name": "_22048a72"
+  },
+  {
+    "name": "privacy-policy",
+    "path": "/privacy-policy",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\privacy-policy.vue",
+    "chunkName": "pages/privacy-policy",
+    "_name": "_27783f55"
+  },
+  {
+    "name": "purpose",
+    "path": "/purpose",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\purpose.vue",
+    "chunkName": "pages/purpose",
+    "_name": "_47bb4250"
+  },
+  {
+    "name": "reporting",
+    "path": "/reporting",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\reporting.vue",
+    "chunkName": "pages/reporting",
+    "_name": "_2351f640"
+  },
+  {
+    "name": "search-page",
+    "path": "/search-page",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\search-page.vue",
+    "chunkName": "pages/search-page",
+    "_name": "_319c24c6"
+  },
+  {
+    "name": "subsidiaries",
+    "path": "/subsidiaries",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\subsidiaries.vue",
+    "chunkName": "pages/subsidiaries",
+    "_name": "_2f371209"
+  },
+  {
+    "name": "sugar",
+    "path": "/sugar",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\sugar.vue",
+    "chunkName": "pages/sugar",
+    "_name": "_245f3630"
+  },
+  {
+    "name": "sustainability",
+    "path": "/sustainability",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\sustainability.vue",
+    "chunkName": "pages/sustainability",
+    "_name": "_4b6f49e5"
+  },
+  {
+    "name": "vision-mission",
+    "path": "/vision-mission",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\vision-mission.vue",
+    "chunkName": "pages/vision-mission",
+    "_name": "_44c1ece5"
+  },
+  {
+    "name": "agro-allied-agro-inputs",
+    "path": "/agro-allied/agro-inputs",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\agro-allied\\\\agro-inputs.vue",
+    "chunkName": "pages/agro-allied/agro-inputs",
+    "_name": "_3b1437c0"
+  },
+  {
+    "name": "agro-allied-oil-and-fats",
+    "path": "/agro-allied/oil-and-fats",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\agro-allied\\\\oil-and-fats.vue",
+    "chunkName": "pages/agro-allied/oil-and-fats",
+    "_name": "_ebf14124"
+  },
+  {
+    "name": "agro-allied-Starches",
+    "path": "/agro-allied/Starches",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\agro-allied\\\\Starches.vue",
+    "chunkName": "pages/agro-allied/Starches",
+    "_name": "_2f4744e8"
+  },
+  {
+    "name": "agro-allied-Sweeteners",
+    "path": "/agro-allied/Sweeteners",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\agro-allied\\\\Sweeteners.vue",
+    "chunkName": "pages/agro-allied/Sweeteners",
+    "_name": "_f13bcfa0"
+  },
+  {
+    "name": "divisions-agro-allied",
+    "path": "/divisions/agro-allied",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\agro-allied.vue",
+    "chunkName": "pages/divisions/agro-allied",
+    "_name": "_d8f7ea6e"
+  },
+  {
+    "name": "divisions-foods",
+    "path": "/divisions/foods",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\foods.vue",
+    "chunkName": "pages/divisions/foods",
+    "_name": "_46844226"
+  },
+  {
+    "name": "divisions-sugar",
+    "path": "/divisions/sugar",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\sugar.vue",
+    "chunkName": "pages/divisions/sugar",
+    "_name": "_272013ce"
+  },
+  {
+    "name": "divisions-support-services",
+    "path": "/divisions/support-services",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\support-services.vue",
+    "chunkName": "pages/divisions/support-services",
+    "_name": "_d2f51b98"
+  },
+  {
+    "name": "foods-ball-foods",
+    "path": "/foods/ball-foods",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\foods\\\\ball-foods.vue",
+    "chunkName": "pages/foods/ball-foods",
+    "_name": "_a2729fe4"
+  },
+  {
+    "name": "foods-flour",
+    "path": "/foods/flour",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\foods\\\\flour.vue",
+    "chunkName": "pages/foods/flour",
+    "_name": "_2b04408f"
+  },
+  {
+    "name": "foods-impulse-foods",
+    "path": "/foods/impulse-foods",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\foods\\\\impulse-foods.vue",
+    "chunkName": "pages/foods/impulse-foods",
+    "_name": "_262b5446"
+  },
+  {
+    "name": "foods-oil-and-spread",
+    "path": "/foods/oil-and-spread",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\foods\\\\oil-and-spread.vue",
+    "chunkName": "pages/foods/oil-and-spread",
+    "_name": "_13e7348b"
+  },
+  {
+    "name": "priority-areas-backward-integration",
+    "path": "/priority-areas/backward-integration",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\priority-areas\\\\backward-integration.vue",
+    "chunkName": "pages/priority-areas/backward-integration",
+    "_name": "_828272f6"
+  },
+  {
+    "name": "priority-areas-community-investment",
+    "path": "/priority-areas/community-investment",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\priority-areas\\\\community-investment.vue",
+    "chunkName": "pages/priority-areas/community-investment",
+    "_name": "_717ad452"
+  },
+  {
+    "name": "priority-areas-diversity-and-inclusion",
+    "path": "/priority-areas/diversity-and-inclusion",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\priority-areas\\\\diversity-and-inclusion.vue",
+    "chunkName": "pages/priority-areas/diversity-and-inclusion",
+    "_name": "_63dd5be7"
+  },
+  {
+    "name": "priority-areas-feeding-the-nation",
+    "path": "/priority-areas/feeding-the-nation",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\priority-areas\\\\feeding-the-nation.vue",
+    "chunkName": "pages/priority-areas/feeding-the-nation",
+    "_name": "_0dbc6767"
+  },
+  {
+    "name": "priority-areas-index2",
+    "path": "/priority-areas/index2",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\priority-areas\\\\index2.vue",
+    "chunkName": "pages/priority-areas/index2",
+    "_name": "_1e5d710a"
+  },
+  {
+    "name": "blog-id",
+    "path": "/blog/:id",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\blog\\\\_id.vue",
+    "chunkName": "pages/blog/_id",
+    "_name": "_7023558a"
+  },
+  {
+    "name": "press-release-id",
+    "path": "/press-release/:id?",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\press-release\\\\_id.vue",
+    "chunkName": "pages/press-release/_id",
+    "_name": "_01b6461b"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_971ddaf8"
+  }
+]

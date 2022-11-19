@@ -1,0 +1,349 @@
+.txt-secc p {
+    margin-top: 0px;
+}
+.core-heading {
+    color: #6c707a;
+    font-family: var(--font);
+    font-weight: 600;
+}
+.piilot-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px auto;
+}
+.piilot-box {
+    padding: 15px;
+    box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: #6c707a;
+    border-bottom: 2px solid;
+    background-color: white;
+}
+.piilot-box:nth-child(1) {
+    border-color: #fe9500;
+}
+.piilot-box:nth-child(2) {
+    border-color: #eb1941;
+}
+.piilot-box:nth-child(3) {
+    border-color: #c5489b;
+}
+.piilot-box:nth-child(4) {
+    border-color: #10a6e1;
+}
+.piilot-box:nth-child(5) {
+    border-color: #80c442;
+}
+.piilot-box:nth-child(6) {
+    border-color: #f9d200;
+}
+.theme-dark .piilot-box {
+    background-color: #6c707a;
+    color: white;
+}
+.piilot-box h5 {
+    margin-bottom: 20px;
+}
+.piilot-img-div {
+    background-color: #017b3f;
+}
+section#testmonies .gray-bg {
+    background: #f4f4f5;
+    padding: 10px 0 0 30px !important;
+}
+.review-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+.review-box {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    /* padding: 20px 20px 30px; */
+    /* border-radius: 4px; */
+    margin-bottom: 15px;
+    /* background: white; */
+}
+.review-box:nth-child(1) {
+    background-color: #fe9500;
+}
+.review-box:nth-child(2) {
+    background-color: #eb1941;
+}
+.review-box:nth-child(3) {
+    background-color: #c5489b;
+}
+.review-box:nth-child(4) {
+    background-color: #10a6e1;
+}
+.review-box:nth-child(5) {
+    background-color: #80c442;
+}
+.reviewer-img {
+    width: 100%;
+    height: 240px;
+    background-color: lightgray;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    cursor: pointer;
+    transition: all 1.5s;
+}
+.careers-play-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 1.5s;
+}
+@media (hover: hover) {
+    .careers-play-button {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        transition: all 1.5s;
+        opacity: 0;
+    }
+    .reviewer-img:hover .careers-play-button {
+        opacity: 1;
+        transition: all 1.5s;
+    }
+}
+.reviewer-img::before {
+    position: absolute;
+    content: '';
+    background-color: transparent;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 1.5s;
+}
+.reviewer-img:hover::before {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* .review-txt p {
+    font-size: 12px !important;
+}
+.review-img-wrapper img {
+    width: 70px;
+} */
+.reviewer-name {
+    font-size: 1.2rem;
+    font-family: var(--font);
+    /* font-weight: 600; */
+    letter-spacing: -1px;
+    line-height: 1;
+    /* margin-top: 5px; */
+    padding: 10px 0;
+    text-align: center;
+}
+/* .reviewer-title {
+    font-size: 75%;
+    opacity: 0.9;
+    min-height: 31px;
+}
+.review-img-wrapper {
+    margin-right: 15px;
+} */
+
+section#career-notice {
+    margin-bottom: 30px;
+}
+.portal-div {
+    background-color: black;
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/career-lady-bg.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    padding: 20px 0 30px;
+    font-size: 14px;
+    background-position: top right;
+    background-size: cover;
+}
+.portal-div::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.portal-div .container {
+    position: relative;
+    z-index: 1;
+}
+.portal-btn-div a.pbd-link {
+    background: var(--pry-color);
+    border: none;
+    color: white;
+    display: block;
+    width: 200px;
+    font-size: 12px;
+    text-align: center;
+    height: 50px;
+    margin: 20px auto 10px;
+}
+.portal-btn-div a.pbd-link img {
+    width: 40px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+.portal-btn-div a.pbd-link i.material-icons {
+    position: relative;
+    top: 13px;
+}
+.portal-btn-div a.pbd-link span {
+    position: relative;
+    top: 6px;
+}
+.career-notice-p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.career-people-img {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.fmn-family-lists {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+.fmn-family-block {
+    height: 100%;
+    color: white;
+}
+.family-img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.family-txt {
+    padding: 0 10px;
+    font-family: var(--font);
+    line-height: 1.3;
+}
+.fmn-family-block:nth-child(1) {
+    background-color: #b0d865;
+}
+.fmn-family-block:nth-child(2) {
+    background-color: #83c38e;
+}
+.fmn-family-block:nth-child(3) {
+    background-color: #65b3b5;
+}
+.fmn-family-block:nth-child(4) {
+    background-color: #54a9d2;
+}
+.fmn-family-block:nth-child(1) > .family-img {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/careers-img.jpg);
+}
+.fmn-family-block:nth-child(2) > .family-img {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/family-2.jpg);
+}
+.fmn-family-block:nth-child(3) > .family-img {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/family-3.jpg);
+}
+.fmn-family-block:nth-child(4) > .family-img {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/family-4.jpg);
+}
+
+@media (min-width: 993px) {
+    .txt-secc {
+        padding: 0px 20px 0 10px;
+        font-size: 18px;
+    }
+    .portal-div .container {
+        width: 50% !important;
+        margin-left: 10%;
+    }
+    .review-box {
+        box-shadow: none;
+    }
+    section#testmonies .gray-bg {
+        padding: 0 0 0 30px !important;
+    }
+}
+@media (min-width: 601px) {
+    /* .tt-txt h4.core-heading {
+      margin-top: 15%;
+      font-size: 3rem;
+  } */
+    .tt-txt p {
+        font-size: 17px;
+    }
+    img.full-width.career-img-people {
+        width: 90%;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 992px) {
+    .piilot-wrapper {
+        grid-template-columns: auto;
+    }
+    .portal-div {
+        background-size: cover;
+        background-position: right;
+    }
+    .review-box.flex-div {
+        display: block;
+        text-align: center;
+    }
+    div#carousel-2 {
+        min-height: 500px;
+    }
+    .fmn-family-lists {
+        grid-template-columns: auto auto;
+    }
+    #piilot-carousel {
+        display: none;
+    }
+    #piilot-carousel-xs {
+        display: block;
+    }
+    .piilot-img-div.visible-xs {
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+    .piilot-wrapper {
+        grid-template-columns: auto;
+    }
+    .review-wrapper {
+        grid-template-columns: auto;
+    }
+    .fmn-family-lists {
+        grid-template-columns: auto;
+    }
+    .family-txt p {
+        text-align: left;
+    }
+    section#testmonies .gray-bg {
+        padding: 10px 15px 0px 15px !important;
+    }
+    .flex-div.sub-logos {
+        flex-wrap: wrap;
+    }
+    .sub-logo {
+        width: 25% !important;
+    }
+    .review-wrapper {
+        /* grid-template-columns: calc(50% - 18px) calc(50% - 18px); */
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    .reviewer-img {
+        height: 380px;
+    }
+}

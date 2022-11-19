@@ -1,0 +1,80 @@
+{
+  "AboutPageSubNav": {
+    "description": "Auto imported from components/AboutPageSubNav.vue"
+  },
+  "AgroAlliedPageSubNav": {
+    "description": "Auto imported from components/AgroAlliedPageSubNav.vue"
+  },
+  "BrandsPageSubNav": {
+    "description": "Auto imported from components/BrandsPageSubNav.vue"
+  },
+  "CareersModals": {
+    "description": "Auto imported from components/CareersModals.vue"
+  },
+  "CookiesPolicy": {
+    "description": "Auto imported from components/CookiesPolicy.vue"
+  },
+  "Default": {
+    "description": "Auto imported from components/Default.vue"
+  },
+  "DivisionsPageSubNav": {
+    "description": "Auto imported from components/DivisionsPageSubNav.vue"
+  },
+  "ExploreBrands": {
+    "description": "Auto imported from components/ExploreBrands.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "GalleryModals": {
+    "description": "Auto imported from components/GalleryModals.vue"
+  },
+  "ImageSliderBanner": {
+    "description": "Auto imported from components/ImageSliderBanner.vue"
+  },
+  "LandingSection": {
+    "description": "Auto imported from components/LandingSection.vue"
+  },
+  "LandingSection2": {
+    "description": "Auto imported from components/LandingSection2.vue"
+  },
+  "LogisticsPageSubNav": {
+    "description": "Auto imported from components/LogisticsPageSubNav.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "PageBanner": {
+    "description": "Auto imported from components/PageBanner.vue"
+  },
+  "PageVideoBanner": {
+    "description": "Auto imported from components/PageVideoBanner.vue"
+  },
+  "PriorityPageSubNav": {
+    "description": "Auto imported from components/PriorityPageSubNav.vue"
+  },
+  "PromotionalBanner": {
+    "description": "Auto imported from components/PromotionalBanner.vue"
+  },
+  "SearchItem": {
+    "description": "Auto imported from components/SearchItem.vue"
+  },
+  "SendMeUpdatesModal": {
+    "description": "Auto imported from components/SendMeUpdatesModal.vue"
+  },
+  "VideoBanner": {
+    "description": "Auto imported from components/VideoBanner.vue"
+  },
+  "BlogOne": {
+    "description": "Auto imported from components/blog/BlogOne.vue"
+  },
+  "BlogTwo": {
+    "description": "Auto imported from components/blog/BlogTwo.vue"
+  },
+  "PressOne": {
+    "description": "Auto imported from components/press-release/PressOne.vue"
+  },
+  "PressTwo": {
+    "description": "Auto imported from components/press-release/PressTwo.vue"
+  }
+}

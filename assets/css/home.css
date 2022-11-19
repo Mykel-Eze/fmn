@@ -1,0 +1,212 @@
+/* div.cfr-div-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+} */
+.cf-heading {
+    font-size: 16px;
+    font-family: var(--font);
+    text-align: center;
+    background: #6c707a;
+    margin-top: -6px;
+    padding: 12px 0;
+    color: white;
+    font-family: var(--font);
+}
+img.brand-img {
+    /* max-width: 135px; */
+    padding: 5px;
+    width: 100%;
+}
+.cf-img-wrapper:hover ~ .cf-heading {
+    background-color: var(--pry-color);
+}
+.theme-dark .cf-img-wrapper:hover ~ .cf-heading {
+    background-color: var(--sec-color);
+}
+section#explore-brands {
+    padding: 0 0 20px;
+    margin-top: 30px;
+}
+h5.news-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+#explore-brands h4 {
+    color: #6c707a;
+    font-size: 1.9rem;
+    letter-spacing: -1.5px;
+}
+.theme-dark #explore-brands h4 {
+    color: white;
+}
+#latest-news .news-wrapper {
+    background-color: #f4f4f5;
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 30px 10px !important;
+    margin: 20px 0;
+}
+.news-div {
+    padding: 0 !important;
+    margin-bottom: 30px;
+    color: #222;
+}
+.news-caption {
+    margin-bottom: 20px;
+}
+.news-caption img {
+    width: 25px;
+}
+.news-caption span {
+    font-size: 16px;
+    position: relative;
+    top: -5px;
+    /* margin-left: 5px; */
+}
+p.news-summary {
+    display: block;
+    /* Fallback for non-webkit */
+    display: -webkit-box;
+    max-width: 100%;
+    height: 55px;
+    /* Fallback for non-webkit */
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+}
+
+/* Careers Section */
+section#career-choices > .row {
+    position: relative;
+    background: var(--pry-color);
+}
+.career-txt-wrapper {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 30px 0 !important;
+}
+.career-sec-img-wrapper img {
+    position: absolute;
+    height: 100%;
+}
+.career-txt-wrapper p {
+    font-size: 13px;
+    text-align: justify;
+}
+.career-txt-wrapper a {
+    color: white;
+    border: 1px solid;
+    padding: 12px;
+    font-size: 12px;
+}
+.career-txt-wrapper a:hover {
+    background-color: white;
+    color: #3d3d3d;
+}
+img.btn-arrow {
+    width: 5px;
+    margin: 0 10px;
+}
+.career-txt-wrapper a .b-a-2 {
+    display: none;
+}
+.career-txt-wrapper a:hover .b-a-1 {
+    display: none;
+}
+.career-txt-wrapper a:hover .b-a-2 {
+    display: initial;
+}
+.cp-link-wrapper {
+    margin: 40px 0 30px;
+}
+@media (min-width: 993px) {
+    section#career-choices > .row {
+        width: 80%;
+        max-width: 1280px;
+    }
+}
+/* @media(max-width: 992px) and (min-width: 601px){ */
+@media (min-width: 601px) {
+    section#career-choices > .row {
+        /* background-image: url(https://res.cloudinary.com/plethub/image/upload/v1595357926/Copy_of_DSC_0214_6c944679dc.jpg); */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 80%;
+    }
+    .career-sec-img-wrapper img {
+        display: none;
+    }
+
+    .cfr-div-wrapper {
+        display: flex;
+    }
+    .cfr-box {
+        margin: 0 10px;
+    }
+    .cfr-box:first-child {
+        margin: 0 10px 0 0;
+    }
+    .cfr-box:last-child {
+        margin: 0 0 0 10px;
+    }
+}
+@media (max-width: 600px) {
+    .career-sec-img-wrapper img {
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+}
+/* end of Careers Section */
+
+@media (max-width: 600px) {
+    /* nav .brand-logo {
+        top: -20px;
+    }
+    nav.trans-nav {
+        height: 70px;
+    }
+    .trans-nav img.menu-icon-img{
+        top: 20px;
+    } */
+    section#home {
+        height: calc(80vh - 38px);
+        min-height: 500px;
+    }
+    section#latest-news .container {
+        width: 100%;
+    }
+    #latest-news .news-wrapper {
+        padding: 30px 10px !important;
+    }
+    #explore-brands h4 {
+        font-size: 1.8rem;
+    }
+    #company-fractions .col.s6.m3:nth-child(odd) {
+        padding-left: 0;
+    }
+    #company-fractions .col.s6.m3:nth-child(even) {
+        padding-right: 0;
+    }
+    div.cfr-div-wrapper {
+        display: inline-block;
+    }
+    .cfr-box {
+        width: calc(50% - 3px);
+        float: left;
+        margin: 3px 0;
+    }
+    .cfr-box:nth-child(even) {
+        float: right;
+    }
+}
+@media (max-width: 330px) {
+    .cf-heading {
+        font-size: 14px;
+    }
+}

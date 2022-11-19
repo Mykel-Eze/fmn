@@ -1,0 +1,282 @@
+/* Banner Section */
+section#sec-home {
+    position: relative;
+    background-color: black;
+    height: 45vh;
+    padding-top: 0;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    min-height: 280px;
+}
+
+.page-title {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    width: auto;
+    color: white;
+    font-size: 3.5rem;
+    padding: 15px 5px 10px;
+    font-weight: bold;
+    font-family: var(--font);
+    line-height: 1;
+}
+
+.page-title hr {
+    width: 40%;
+    margin-left: 0;
+    min-width: 150px;
+    border: none;
+    height: 1.1px;
+    background: white;
+}
+
+.aboutUs-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/About_us.jpg);
+}
+
+.historyheritage-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/About_us.jpg);
+}
+
+.visionmission-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/About_us.jpg);
+}
+
+.boardmembers-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/Board.jpg);
+}
+
+.managementTeam-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/Management.jpg);
+}
+
+.accolades-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/Awards.jpg);
+}
+.subsidiaries-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/About_us.jpg);
+}
+
+.investorRelations-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/investor.jpg);
+}
+
+.sustainability-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/Sustainability.jpg);
+}
+.search-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/blog.jpg);
+}
+
+.food1-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/foods_1.jpg);
+}
+
+.food2-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/foods_2.jpg);
+}
+
+.food3-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/foods_3.jpg);
+}
+
+.agro-allied-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/agro_allied.jpg);
+}
+
+.logistics-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/logistics.jpg);
+}
+
+.careers-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/careers.jpg);
+}
+
+.contact-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/contact.jpg);
+}
+
+.pressRelease-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/press.jpg);
+}
+
+.blog-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/blog.jpg);
+}
+
+.gallery-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/gallery.jpg);
+}
+
+.sugar-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/sugar.jpg);
+}
+
+.diversity-n-inclusion-page section#sec-home {
+    background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/diversity-bg.jpg);
+}
+
+.contact-page section#sharePage {
+    display: none;
+}
+
+.breadcrumbs a {
+    padding: 5px;
+    color: black;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.theme-dark .breadcrumbs a {
+    color: white;
+}
+
+.sm-icons a img {
+    width: 30px;
+    padding-left: 7px;
+    margin-top: 5px;
+}
+
+/* end of Banner Section */
+
+.tab-view > div.col {
+    padding: 0 5px;
+}
+
+.tab-view a {
+    background: #f4f4f5;
+    color: black;
+    padding: 10px 5px;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    height: 50px;
+    line-height: 2.5;
+    border-bottom: 2px solid;
+    margin-bottom: 5px;
+}
+
+div#video-modal,
+div#photo-box {
+    width: 80%;
+    height: 70vh;
+    max-width: 800px;
+    overflow: visible;
+}
+
+.modal .modal-content {
+    padding: 0 !important;
+}
+
+span.close.cursor.modal-close {
+    background: black;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: -45px;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.teal-bg {
+    background-color: #65b3b5;
+    color: white;
+}
+
+.yellow-bg {
+    background-color: #e0e452;
+    color: white;
+}
+
+.green-bg {
+    background-color: #83c38e;
+    color: white;
+}
+
+.blue-bg {
+    background-color: #54a9d2;
+    color: white;
+}
+
+.lemon-bg {
+    background-color: #b0d865;
+    color: white;
+}
+
+.title-bar h5 {
+    font-size: 1.5rem;
+    font-family: var(--font-smbold);
+}
+
+section.more-txt-sec p {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+@media (min-width: 1400px) {
+    section#sec-home > div {
+        width: 80%;
+        max-width: 1280px;
+        position: relative;
+        height: calc(100% + 20px);
+        margin: auto;
+    }
+
+    .page-title {
+        left: 0;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 601px) {
+    section#sec-home {
+        height: 35vh;
+    }
+}
+
+@media (max-width: 600px) {
+    section#sec-home {
+        height: 200px;
+    }
+
+    .page-title {
+        left: 0;
+        width: auto;
+        font-size: 2.1rem;
+        min-width: 50%;
+        padding: 15px 30px 10px;
+    }
+
+    .social-media-share {
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .sm-icons a img {
+        width: 30px;
+        padding-left: 0;
+        padding-right: 5px;
+    }
+
+    div#video-modal,
+    div#photo-box {
+        width: 100%;
+        height: 70vh;
+        max-width: 800px;
+        overflow: visible;
+        max-height: 380px;
+    }
+
+    p {
+        text-align: justify;
+    }
+}

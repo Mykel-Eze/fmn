@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'raleway-light';
+    src: url('../fonts/raleway/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: 'raleway-extralight';
+    src: url('../fonts/raleway/Raleway-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'raleway-semibold';
+    src: url('../fonts/raleway/Raleway-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../fonts/raleway/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: 'raleway-extrabold';
+    src: url('../fonts/raleway/Raleway-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../fonts/poppins/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'poppins-extralight';
+    src: url('../fonts/poppins/Poppins-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../fonts/poppins/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'poppins-extrabold';
+    src: url('../fonts/poppins/Poppins-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'cocon-bold';
+    src: url('../fonts/Cocon-Bold.otf');
+}
