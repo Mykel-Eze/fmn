@@ -6,6 +6,7 @@
           pageCrumbName="Awards"
           class="accolades-page"
       />
+      <!--=== end of Page Banner Section ===-->
 
       <!--=== Awards List Section ===-->
       <section id="awards">
@@ -14,8 +15,6 @@
         </div>
       </section>
       <!--=== end of Awards List Section ===-->
-      <!--=== end of Page Banner Section ===-->
-
 
   </div>
 </template>

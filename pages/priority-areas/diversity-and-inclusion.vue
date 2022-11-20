@@ -4,7 +4,7 @@
       <PageBanner
           pageTitle="Diversity And Inclusion"
           pageCrumbName="Diversity And Inclusion"
-          class="sustainability-page"
+          class="diversity-n-inclusion-page"
       />
 
       <!-- <section class="more-txt-sec">

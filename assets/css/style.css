@@ -155,6 +155,9 @@ h5, h6{
 .theme-dark .gray-bg{
     color: black;
 }
+img {
+  max-width: 100%;
+}
 
 /* Navbar Section */
 nav.trans-nav{

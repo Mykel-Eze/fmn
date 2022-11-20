@@ -62,6 +62,12 @@
   "SendMeUpdatesModal": {
     "description": "Auto imported from components/SendMeUpdatesModal.vue"
   },
+  "SugarPageSubNav": {
+    "description": "Auto imported from components/SugarPageSubNav.vue"
+  },
+  "SugarPageSubNav2": {
+    "description": "Auto imported from components/SugarPageSubNav2.vue"
+  },
   "VideoBanner": {
     "description": "Auto imported from components/VideoBanner.vue"
   },

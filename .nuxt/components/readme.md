@@ -27,6 +27,8 @@ You can directly use them in pages and other components without the need to impo
 - `<PromotionalBanner>` | `<promotional-banner>` (components/PromotionalBanner.vue)
 - `<SearchItem>` | `<search-item>` (components/SearchItem.vue)
 - `<SendMeUpdatesModal>` | `<send-me-updates-modal>` (components/SendMeUpdatesModal.vue)
+- `<SugarPageSubNav>` | `<sugar-page-sub-nav>` (components/SugarPageSubNav.vue)
+- `<SugarPageSubNav2>` | `<sugar-page-sub-nav2>` (components/SugarPageSubNav2.vue)
 - `<VideoBanner>` | `<video-banner>` (components/VideoBanner.vue)
 - `<BlogOne>` | `<blog-one>` (components/blog/BlogOne.vue)
 - `<BlogTwo>` | `<blog-two>` (components/blog/BlogTwo.vue)

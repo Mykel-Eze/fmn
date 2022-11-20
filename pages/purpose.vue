@@ -4,8 +4,9 @@
       <PageBanner
           pageTitle="Purpose"
           pageCrumbName="Purpose"
-          class="purpose-page"
+          class="gallery-page"
       />
+      <!--=== end of Page Banner Section ===-->
 
       <section class="more-txt-sec">
           <div class="row sec1">
@@ -37,8 +38,6 @@
               </div>
           </div>
       </section>
-      <!--=== end of Page Banner Section ===-->
-
 
   </div>
 </template>

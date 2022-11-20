@@ -289,9 +289,9 @@
   {
     "name": "divisions-sugar",
     "path": "/divisions/sugar",
-    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\sugar.vue",
-    "chunkName": "pages/divisions/sugar",
-    "_name": "_272013ce"
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\sugar\\\\index.vue",
+    "chunkName": "pages/divisions/sugar/index",
+    "_name": "_368e0618"
   },
   {
     "name": "divisions-support-services",
@@ -362,6 +362,41 @@
     "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\priority-areas\\\\index2.vue",
     "chunkName": "pages/priority-areas/index2",
     "_name": "_1e5d710a"
+  },
+  {
+    "name": "divisions-sugar-golden-sugar-company",
+    "path": "/divisions/sugar/golden-sugar-company",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\sugar\\\\golden-sugar-company.vue",
+    "chunkName": "pages/divisions/sugar/golden-sugar-company",
+    "_name": "_1473ea20"
+  },
+  {
+    "name": "divisions-sugar-hse",
+    "path": "/divisions/sugar/hse",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\sugar\\\\hse.vue",
+    "chunkName": "pages/divisions/sugar/hse",
+    "_name": "_c47f6148"
+  },
+  {
+    "name": "divisions-sugar-quality-assurance",
+    "path": "/divisions/sugar/quality-assurance",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\sugar\\\\quality-assurance.vue",
+    "chunkName": "pages/divisions/sugar/quality-assurance",
+    "_name": "_1bb0c681"
+  },
+  {
+    "name": "divisions-sugar-sunti-golden-sugar-estate",
+    "path": "/divisions/sugar/sunti-golden-sugar-estate",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\sugar\\\\sunti-golden-sugar-estate.vue",
+    "chunkName": "pages/divisions/sugar/sunti-golden-sugar-estate",
+    "_name": "_06729ac6"
+  },
+  {
+    "name": "divisions-sugar-sustainability",
+    "path": "/divisions/sugar/sustainability",
+    "component": "C:\\\\Users\\\\mykel\\\\OneDrive\\\\Desktop\\\\P-Projects\\\\fmn-website-clone-test\\\\pages\\\\divisions\\\\sugar\\\\sustainability.vue",
+    "chunkName": "pages/divisions/sugar/sustainability",
+    "_name": "_7c901d75"
   },
   {
     "name": "blog-id",

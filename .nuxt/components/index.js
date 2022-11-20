@@ -19,6 +19,8 @@ export { default as PriorityPageSubNav } from '../..\\components\\PriorityPageSu
 export { default as PromotionalBanner } from '../..\\components\\PromotionalBanner.vue'
 export { default as SearchItem } from '../..\\components\\SearchItem.vue'
 export { default as SendMeUpdatesModal } from '../..\\components\\SendMeUpdatesModal.vue'
+export { default as SugarPageSubNav } from '../..\\components\\SugarPageSubNav.vue'
+export { default as SugarPageSubNav2 } from '../..\\components\\SugarPageSubNav2.vue'
 export { default as VideoBanner } from '../..\\components\\VideoBanner.vue'
 export { default as BlogOne } from '../..\\components\\blog\\BlogOne.vue'
 export { default as BlogTwo } from '../..\\components\\blog\\BlogTwo.vue'

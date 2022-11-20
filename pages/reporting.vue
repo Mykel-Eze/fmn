@@ -4,7 +4,7 @@
       <PageBanner
           pageTitle="Reporting"
           pageCrumbName="Reporting"
-          class="reporting-page"
+          class="gallery-page"
       />
 
       <section class="more-txt-sec">
@@ -142,5 +142,8 @@ i.material-icons.tooltipped {
 }
 a.a-block, .cb-p p {
   width: 100%;
+}
+.theme-light a.a-block, .theme-light .cb-p p {
+  background-color: rgba(0, 0, 0, 0.12);
 }
 </style>

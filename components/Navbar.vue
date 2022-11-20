@@ -113,14 +113,13 @@
                                     Investors
                                 </nuxt-link>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <nuxt-link
                                     to=""
                                     class="dropdown-trigger"
                                     data-target="dropdown0"
                                     >Our Impact
                                 </nuxt-link>
-                                <!-- Dropdown Structure -->
                                 <ul id="dropdown0" class="dropdown-content">
                                     <li class="divider" tabindex="-1"></li>
                                     <li>
@@ -136,21 +135,8 @@
                                             Diversity and Inclusion
                                         </nuxt-link>
                                     </li>
-                                    <!-- <li>
-                                        <nuxt-link to="/">
-                                            CSR Activities
-                                        </nuxt-link>
-                                    </li>
-                                    <li class="divider" tabindex="-1"></li>
-                                    <li>
-                                        <nuxt-link to="/">
-                                            Sustainability Reporting
-                                        </nuxt-link>
-                                    </li>
-                                    <li class="divider" tabindex="-1"></li> -->
-                                    <!-- <div class="arrow-up"></div> -->
                                 </ul>
-                            </li>
+                            </li> -->
                             <li>
                                 <nuxt-link to=""
                                   class="dropdown-trigger"

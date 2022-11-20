@@ -45,7 +45,7 @@ const _2f4744e8 = () => interopDefault(import('..\\pages\\agro-allied\\Starches.
 const _f13bcfa0 = () => interopDefault(import('..\\pages\\agro-allied\\Sweeteners.vue' /* webpackChunkName: "pages/agro-allied/Sweeteners" */))
 const _d8f7ea6e = () => interopDefault(import('..\\pages\\divisions\\agro-allied.vue' /* webpackChunkName: "pages/divisions/agro-allied" */))
 const _46844226 = () => interopDefault(import('..\\pages\\divisions\\foods.vue' /* webpackChunkName: "pages/divisions/foods" */))
-const _272013ce = () => interopDefault(import('..\\pages\\divisions\\sugar.vue' /* webpackChunkName: "pages/divisions/sugar" */))
+const _368e0618 = () => interopDefault(import('..\\pages\\divisions\\sugar\\index.vue' /* webpackChunkName: "pages/divisions/sugar/index" */))
 const _d2f51b98 = () => interopDefault(import('..\\pages\\divisions\\support-services.vue' /* webpackChunkName: "pages/divisions/support-services" */))
 const _a2729fe4 = () => interopDefault(import('..\\pages\\foods\\ball-foods.vue' /* webpackChunkName: "pages/foods/ball-foods" */))
 const _2b04408f = () => interopDefault(import('..\\pages\\foods\\flour.vue' /* webpackChunkName: "pages/foods/flour" */))
@@ -56,6 +56,11 @@ const _717ad452 = () => interopDefault(import('..\\pages\\priority-areas\\commun
 const _63dd5be7 = () => interopDefault(import('..\\pages\\priority-areas\\diversity-and-inclusion.vue' /* webpackChunkName: "pages/priority-areas/diversity-and-inclusion" */))
 const _0dbc6767 = () => interopDefault(import('..\\pages\\priority-areas\\feeding-the-nation.vue' /* webpackChunkName: "pages/priority-areas/feeding-the-nation" */))
 const _1e5d710a = () => interopDefault(import('..\\pages\\priority-areas\\index2.vue' /* webpackChunkName: "pages/priority-areas/index2" */))
+const _1473ea20 = () => interopDefault(import('..\\pages\\divisions\\sugar\\golden-sugar-company.vue' /* webpackChunkName: "pages/divisions/sugar/golden-sugar-company" */))
+const _c47f6148 = () => interopDefault(import('..\\pages\\divisions\\sugar\\hse.vue' /* webpackChunkName: "pages/divisions/sugar/hse" */))
+const _1bb0c681 = () => interopDefault(import('..\\pages\\divisions\\sugar\\quality-assurance.vue' /* webpackChunkName: "pages/divisions/sugar/quality-assurance" */))
+const _06729ac6 = () => interopDefault(import('..\\pages\\divisions\\sugar\\sunti-golden-sugar-estate.vue' /* webpackChunkName: "pages/divisions/sugar/sunti-golden-sugar-estate" */))
+const _7c901d75 = () => interopDefault(import('..\\pages\\divisions\\sugar\\sustainability.vue' /* webpackChunkName: "pages/divisions/sugar/sustainability" */))
 const _7023558a = () => interopDefault(import('..\\pages\\blog\\_id.vue' /* webpackChunkName: "pages/blog/_id" */))
 const _01b6461b = () => interopDefault(import('..\\pages\\press-release\\_id.vue' /* webpackChunkName: "pages/press-release/_id" */))
 const _971ddaf8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -237,7 +242,7 @@ export const routerOptions = {
     name: "divisions-foods"
   }, {
     path: "/divisions/sugar",
-    component: _272013ce,
+    component: _368e0618,
     name: "divisions-sugar"
   }, {
     path: "/divisions/support-services",
@@ -279,6 +284,26 @@ export const routerOptions = {
     path: "/priority-areas/index2",
     component: _1e5d710a,
     name: "priority-areas-index2"
+  }, {
+    path: "/divisions/sugar/golden-sugar-company",
+    component: _1473ea20,
+    name: "divisions-sugar-golden-sugar-company"
+  }, {
+    path: "/divisions/sugar/hse",
+    component: _c47f6148,
+    name: "divisions-sugar-hse"
+  }, {
+    path: "/divisions/sugar/quality-assurance",
+    component: _1bb0c681,
+    name: "divisions-sugar-quality-assurance"
+  }, {
+    path: "/divisions/sugar/sunti-golden-sugar-estate",
+    component: _06729ac6,
+    name: "divisions-sugar-sunti-golden-sugar-estate"
+  }, {
+    path: "/divisions/sugar/sustainability",
+    component: _7c901d75,
+    name: "divisions-sugar-sustainability"
   }, {
     path: "/blog/:id",
     component: _7023558a,

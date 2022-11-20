@@ -6,6 +6,7 @@
           pageCrumbName="Backward Integration"
           class="sustainability-page"
       />
+      <!--=== end of Page Banner Section ===-->
 
       <section class="more-txt-sec">
           <div class="row sec1">
@@ -59,9 +60,6 @@
               </div>
           </div>
       </section>
-
-      <!--=== end of Page Banner Section ===-->
-
 
   </div>
 </template>

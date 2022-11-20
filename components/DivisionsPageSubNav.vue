@@ -63,35 +63,26 @@ export default Vue.extend({
     border-color: #e0e452;
 }
 
-.aboutUs-page #tab-1 {
+.foods-page #tab-1 {
     background-color: #60646c;
     color: white;
 }
 
-.historyheritage-page #tab-2 {
+.agroAllied-page #tab-2 {
     background-color: #60646c;
     color: white;
 }
 
-.visionmission-page #tab-3 {
+.sugar-page #tab-3 {
     background-color: #60646c;
     color: white;
 }
 
-.boardmembers-page #tab-4 {
+.supportServices-page #tab-4 {
     background-color: #60646c;
     color: white;
 }
 
-.managementTeam-page #tab-5 {
-    background-color: #60646c;
-    color: white;
-}
-
-.subsidiaries-page #tab-6 {
-    background-color: #60646c;
-    color: white;
-}
 
 @media (max-width: 330px) {
     .tab-view a {
