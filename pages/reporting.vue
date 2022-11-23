@@ -7,13 +7,18 @@
           class="gallery-page"
       />
 
-      <section class="more-txt-sec">
-            <div class="row sec1">
+        <section id="products-wrapper">
+            <div class="row">
                 <div class="container">
-                    <div class="col s12 txt-secc-wrapper1 pad0">
-                        <div class="col s12 pad0">
-                            <div class="text-justify txt-secc">
-                                <p class="" style="padding-right: 0">
+                    <div class="short-desc-txt col s12">
+                        <div class="col s12 m4 offset-m4 pad0-xs">
+                            <div class="sdt-img-div">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="col s12 pad0-xs">
+                            <div class="text-justify-xs">
+                                <p>
                                     We report against our sustainability goals in our Annual Sustainability
                                     Reports using the Global Reporting Initiative (GRI)  as a guidance framework.
                                     In addition, we are participants in the United Nations Global Compact (UNGC)
@@ -39,56 +44,32 @@
                               rel="noopener"
                               href="https://flourmills.s3.eu-central-1.amazonaws.com/reports/2021/2021_FMN_SR_Final_21.4.2022.pdf"
                               target="_blank"
-                              class="flex-div a-block rel"
-                              download
+                              class="a-report-block"
                           >
-                              <img
-                                  src="https://flourmills.s3.eu-central-1.amazonaws.com/images/file-icon.png"
-                                  alt="file-icon"
-                                  class="file-icon"
-                              />
-                              <span>
-                                  FMN 2020-2021 Sustainability
-                                  Report
-                              </span>
+                              <img src="../assets/images/2021-thumbnail.jpg" alt="thumbnail" class="a-block-thumbnail">
 
-                              <i
-                                  class="
-                                      material-icons
-                                      tooltipped
-                                  "
-                                  data-position="bottom"
-                                  data-tooltip="Download"
-                                  >file_download</i
-                              >
+                              <div class="a-block-details rel">
+                                <span>
+                                    FMN 2020-2021 Sustainability
+                                    Report
+                                </span>
+                              </div>
                           </a>
 
                           <a
                               rel="noopener"
                               href="https://flourmills.s3.eu-central-1.amazonaws.com/reports/FMN%2B2019-2020%2BSustainability%2BReport.pdf"
                               target="_blank"
-                              class="flex-div a-block rel"
-                              download
+                              class="a-report-block"
                           >
-                              <img
-                                  src="https://flourmills.s3.eu-central-1.amazonaws.com/images/file-icon.png"
-                                  alt="file-icon"
-                                  class="file-icon"
-                              />
-                              <span>
-                                  FMN 2019-2020 Sustainability
-                                  Report
-                              </span>
+                              <img src="../assets/images/2019-thumbnail.jpg" alt="thumbnail" class="a-block-thumbnail">
 
-                              <i
-                                  class="
-                                      material-icons
-                                      tooltipped
-                                  "
-                                  data-position="bottom"
-                                  data-tooltip="Download"
-                                  >file_download</i
-                              >
+                              <div class="a-block-details rel">
+                                <span>
+                                    FMN 2019-2020 Sustainability
+                                    Report
+                                </span>
+                              </div>
                           </a>
                         </div>
                     </div>
@@ -129,7 +110,7 @@ i.material-icons.tooltipped {
     font-weight: 100;
     opacity: 0.8;
     font-size: 18px;
-    top: 15px;
+    /* top: 15px; */
 }
 
 .title-secc-bar {
@@ -140,10 +121,65 @@ i.material-icons.tooltipped {
     padding: 10px 20px;
     text-align: left;
 }
-a.a-block, .cb-p p {
+.cb-p p {
   width: 100%;
 }
 .theme-light a.a-block, .theme-light .cb-p p {
   background-color: rgba(0, 0, 0, 0.12);
+}
+
+.reporting-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.a-block-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--pry-color);
+    color: white;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-align: center;
+}
+a.a-report-block {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 1.2s;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 20%);
+}
+a.a-report-block:hover {
+  transform: scale(1.05);
+}
+img.a-block-thumbnail {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.sdt-img-div > div {
+    background-color: white;
+    float: left;
+    width: 100%;
+    background-image: url("../assets/images/un-global-compact.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+@media (max-width: 600px) {
+    .sdt-img-div > div {
+        margin-top: 0;
+    }
 }
 </style>

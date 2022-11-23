@@ -4,7 +4,7 @@
       <PageBanner
           pageTitle="Community Investment"
           pageCrumbName="Community Investment"
-          class="sustainability-page"
+          class="sustainability-page prioritySubpage"
       />
 
       <section class="more-txt-sec">
@@ -42,18 +42,21 @@
                                       <h5>Corporate Social Responsibility</h5>
                                   </div>
                                   <p class="">
-                                      Our CSR initiatives stem from five key areas
-                                      that are fundamental to our business:
+                                    Our community/social investments stem from three key areas that are
+                                    fundamental to our business as follows:
                                   </p>
                                   <ul class="list-secc">
                                       <li>
                                           Education, research and skills
                                           development
                                       </li>
-                                      <li>Environmental Sustainability</li>
-                                      <li>Health, safety, and welfare</li>
+                                      <li>
+                                        Health, safety and welfare  of surrounding communities (including food
+                                        safety and nutrition)
+                                      </li>
                                       <li>Infrastructural Development</li>
-                                      <li>Security</li>
+                                      <!-- <li>Environmental Sustainability</li>
+                                      <li>Security</li> -->
                                   </ul>
                               </div>
                           </div>

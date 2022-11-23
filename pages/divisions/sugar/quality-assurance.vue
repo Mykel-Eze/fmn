@@ -2,9 +2,9 @@
   <div>
     <!--=== Page Banner Section ===-->
       <PageBanner
-          pageTitle="Sugar"
-          pageCrumbName="Sugar"
-          class="sugar-page"
+          pageTitle="Quality Assurance"
+          pageCrumbName="Quality Assurance"
+          class="sugar-page sugarSubpage"
       />
       <!--=== end of Page Banner Section ===-->
 

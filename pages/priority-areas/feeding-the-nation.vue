@@ -4,7 +4,7 @@
       <PageBanner
           pageTitle="Feeding The Nation Everyday"
           pageCrumbName="Feeding The Nation"
-          class="sustainability-page"
+          class="sustainability-page prioritySubpage"
       />
 
       <section class="more-txt-sec">

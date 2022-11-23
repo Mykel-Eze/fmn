@@ -4,7 +4,7 @@
       <PageBanner
           pageTitle="Sugar"
           pageCrumbName="Sugar"
-          class="sugar-page"
+          class="sugar-page divisionsSubpage"
       />
       <!--=== end of Page Banner Section ===-->
 
@@ -62,9 +62,9 @@
                               </p>
                               <p>
                                 Read more on FMN Group’s Sustainability Policy and Approach
-                                <a rel="noopener" href="#" target="_blank" class="pry-color bold-txt lm-link">
+                                <nuxt-link to="/approach" class="pry-color bold-txt lm-link">
                                   <u>here</u>
-                                </a>
+                                </nuxt-link>
                               </p>
                           </div>
                       </div>
@@ -130,7 +130,7 @@
 
       <div class="more-about-gsc-wrapper center">
         <nuxt-link to="/divisions/sugar/quality-assurance" id="more-about-gsc">
-          More About Golden Sugar Company
+          More About GSC Sustainability
         </nuxt-link>
       </div>
 

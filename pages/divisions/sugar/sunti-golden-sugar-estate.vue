@@ -3,8 +3,8 @@
     <!--=== Page Banner Section ===-->
       <PageBanner
           pageTitle="Sugar"
-          pageCrumbName="Sugar"
-          class="sugar-page"
+          pageCrumbName="Sunti Golden Sugar"
+          class="sugar-page sugarSubpage"
       />
       <!--=== end of Page Banner Section ===-->
 
@@ -126,9 +126,24 @@
                     </div>
 
                     <div class="factory-images-wrapper">
-                      <img src="~/assets/images/refinery1.jpeg" alt="refinery" class="factory-image">
-                      <img src="~/assets/images/refinery.jpeg" alt="refinery" class="factory-image">
-                      <img src="~/assets/images/refinery2.jpeg" alt="refinery" class="factory-image">
+                      <div class="factory-image-block">
+                        <img src="~/assets/images/sunti/sunti-1.jpg" alt="sunti" class="factory-image materialboxed">
+                      </div>
+                      <div class="factory-image-block">
+                        <img src="~/assets/images/sunti/sunti-2.jpg" alt="sunti" class="factory-image materialboxed">
+                      </div>
+                      <div class="factory-image-block">
+                        <img src="~/assets/images/sunti/sunti-3.jpg" alt="sunti" class="factory-image materialboxed">
+                      </div>
+                      <div class="factory-image-block">
+                        <img src="~/assets/images/sunti/sunti-4.jpg" alt="sunti" class="factory-image materialboxed">
+                      </div>
+                      <div class="factory-image-block">
+                        <img src="~/assets/images/sunti/sunti-5.jpg" alt="sunti" class="factory-image materialboxed">
+                      </div>
+                      <div class="factory-image-block">
+                        <img src="~/assets/images/sunti/sunti-6.jpg" alt="sunti" class="factory-image materialboxed">
+                      </div>
                     </div>
                 </div>
               </div>
@@ -155,6 +170,10 @@ export default Vue.extend({
         PageBanner,
         DivisionsPageSubNav,
         SugarPageSubNav
+    },
+    mounted() {
+      var elemsMaterialbox = document.querySelectorAll('.materialboxed');
+      M.Materialbox.init(elemsMaterialbox);
     },
     async asyncData({ $axios }) {
         const product = await $axios.get('products?brand=sugar');
@@ -246,9 +265,18 @@ ul.dotted-list > li {
   gap: 20px;
   margin: 40px 0 30px;
 }
-img.factory-image {
+.factory-image-block {
   width: 100%;
+  padding-bottom: 75%;
   border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+img.factory-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 

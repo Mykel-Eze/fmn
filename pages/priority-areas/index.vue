@@ -4,7 +4,7 @@
       <PageBanner
           pageTitle="Backward Integration"
           pageCrumbName="Backward Integration"
-          class="sustainability-page"
+          class="sustainability-page prioritySubpage"
       />
       <!--=== end of Page Banner Section ===-->
 

@@ -4,7 +4,7 @@
       <PageBanner
           pageTitle="Support Services"
           pageCrumbName="Support Services"
-          class="logistics-page"
+          class="logistics-page divisionsSubpage"
       />
       <!--=== end of Page Banner Section ===-->
 

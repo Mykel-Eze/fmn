@@ -2,9 +2,9 @@
   <div>
     <!--=== Page Banner Section ===-->
       <PageBanner
-          pageTitle="Sugar"
-          pageCrumbName="Sugar"
-          class="sugar-page"
+          pageTitle="Sustainability"
+          pageCrumbName="Sustainability"
+          class="sugar-page sugarSubpage"
       />
       <!--=== end of Page Banner Section ===-->
 
@@ -34,7 +34,9 @@
                     <div class="esg-dsclosures-wrapper">
                       <div class="esg-block" id="cdp-block">
                         <div class="esg-title">
-                          <img src="~/assets/images/cdp.png" alt="cdp">
+                          <a href="https://www.cdp.net/en/companies-discloser" target="_blank" rel="noopener noreferrer">
+                            <img src="~/assets/images/cdp.png" alt="cdp">
+                          </a>
                         </div>
                         <div class="esg-content">
                           <img src="~/assets/images/cdp-1.png" alt="cdp figures" class="cdp-img">
@@ -45,7 +47,9 @@
 
                       <div class="esg-block" id="ecovadis-block">
                         <div class="esg-title">
-                          <img src="~/assets/images/ecovadis.png" alt="ecovadis">
+                          <a href="https://ecovadis.com" target="_blank" rel="noopener noreferrer">
+                            <img src="~/assets/images/ecovadis.png" alt="ecovadis">
+                          </a>
                         </div>
                         <div class="esg-content">
                           <div class="ecovadis-content-row">
@@ -53,23 +57,17 @@
                             <img src="~/assets/images/ecovadis-2021-1-a.png" alt="ecovadis figures" class="ecovadis-img">
                           </div>
                           <div class="ecovadis-content-row">
-                            <img src="~/assets/images/ecovadis-2021-2.png" alt="ecovadis figures" class="ecovadis-img">
-                            <img src="~/assets/images/ecovadis-2021-2-a.png" alt="ecovadis figures" class="ecovadis-img">
-                          </div>
-                          <div class="ecovadis-content-row">
                             <img src="~/assets/images/ecovadis-2022-1.png" alt="ecovadis figures" class="ecovadis-img">
                             <img src="~/assets/images/ecovadis-2022-1-a.png" alt="ecovadis figures" class="ecovadis-img">
-                          </div>
-                          <div class="ecovadis-content-row">
-                            <img src="~/assets/images/ecovadis-2022-2.png" alt="ecovadis figures" class="ecovadis-img">
-                            <img src="~/assets/images/ecovadis-2022-2-a.png" alt="ecovadis figures" class="ecovadis-img">
                           </div>
                         </div>
                       </div>
 
                       <div class="esg-block" id="sedex-block">
                         <div class="esg-title">
-                          <img src="~/assets/images/sedex.png" alt="sedex">
+                          <a href="https://www.sedex.com" target="_blank" rel="noopener noreferrer">'
+                            <img src="~/assets/images/sedex.png" alt="sedex">
+                          </a>
                         </div>
                         <div class="esg-content">
                           <div class="text-justify txt-secc">

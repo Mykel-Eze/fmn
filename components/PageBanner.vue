@@ -37,24 +37,25 @@
                 <div class="container">
                     <div class="col s12">
                         <div class="breadcrumbs col s12 m8 pad0">
-                            <!-- <span class="forAboutPages">
+                            <span class="prioritySubpageCrumbs">
                               <span style="position: relative;top: 1px;">&#10095;</span>
-                              <nuxt-link :to="{ name: 'About' }">About</nuxt-link>
-                            </span> -->
+                              <nuxt-link to="/priority-areas">Priority Areas</nuxt-link>
+                            </span>
+                            <span class="divisionsSubpageCrumbs">
+                              <span style="position: relative;top: 1px;">&#10095;</span>
+                              <nuxt-link to="/divisions">Divisions</nuxt-link>
+                            </span>
+                            <span class="sugarSubpageCrumbs">
+                              <span style="position: relative;top: 1px;">&#10095;</span>
+                              <nuxt-link to="/divisions/sugar">Sugar</nuxt-link>
+                            </span>
                             <span style="position: relative; top: 1px"
                                 >&#10095;</span
                             >
                             <nuxt-link to="">{{ pageCrumbName }}</nuxt-link>
                         </div>
                         <div
-                            class="
-                                social-media-share
-                                col
-                                s12
-                                m4
-                                right-align
-                                pad0
-                            "
+                            class="social-media-share col s12 m4 right-align pad0"
                         >
                             <div class="hidden-xs">Share this page</div>
                             <div class="sm-icons">
@@ -120,6 +121,8 @@ export default Vue.extend({
     props: {
         pageTitle: String,
         pageCrumbName: String,
+        parentPageCrumb: String,
+        parentPageCrumbLink: String,
         bgImage: {
             type: String,
             required: false,
@@ -164,6 +167,18 @@ export default Vue.extend({
 }
 .show-portal-btn .page-title .portal-btn-div {
     display: block;
+}
+.prioritySubpageCrumbs, .divisionsSubpageCrumbs, .sugarSubpageCrumbs {
+  display: none;
+}
+.prioritySubpage .prioritySubpageCrumbs {
+  display: inline;
+}
+.divisionsSubpage .divisionsSubpageCrumbs {
+  display: inline;
+}
+.sugarSubpage .sugarSubpageCrumbs, .sugarSubpage .divisionsSubpageCrumbs {
+  display: inline;
 }
 </style>
 <style scoped>

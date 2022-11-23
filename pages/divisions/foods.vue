@@ -2,9 +2,9 @@
   <div>
     <!--=== Page Banner Section ===-->
       <PageBanner
-          pageTitle="Foods"
-          pageCrumbName="Foods"
-          class="food3-page"
+          pageTitle="Food"
+          pageCrumbName="Food"
+          class="food3-page divisionsSubpage"
       />
       <!--=== end of Page Banner Section ===-->
 

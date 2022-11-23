@@ -4,7 +4,7 @@
       <PageBanner
           pageTitle="Agro Allied"
           pageCrumbName="Agro Allied"
-          class="agro-allied-page"
+          class="agro-allied-page divisionsSubpage"
       />
       <!--=== end of Page Banner Section ===-->
 
