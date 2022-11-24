@@ -349,7 +349,7 @@
                     class="dropdown-trigger"
                     data-target="dropdown0-m"
                 >
-                    Our Impact
+                    Sustainability
                     <i class="material-icons abdr-down" id="about--dropdown">
                         keyboard_arrow_down
                     </i>
@@ -357,39 +357,55 @@
                 <!-- Dropdown Structure -->
                 <ul id="dropdown0-m" class="dropdown-content">
                     <li>
-                        <nuxt-link to="/sustainability" class="sidenav-close">
-                            Sustainability
+                        <nuxt-link to="/purpose" class="sidenav-close">
+                            Purpose
                         </nuxt-link>
                     </li>
                     <li class="divider" tabindex="-1"></li>
                     <li>
                         <nuxt-link
-                            to="/feeding-the-nation"
+                            to="/approach"
                             class="sidenav-close"
                         >
-                            Feeding the Nation Everyday
-                        </nuxt-link>
-                    </li>
-                    <li>
-                        <nuxt-link
-                            to="/diversity-and-inclusion"
-                            class="sidenav-close"
-                        >
-                            Diversity and Inclusion
-                        </nuxt-link>
-                    </li>
-                    <!-- <li>
-                        <nuxt-link to="/">
-                            CSR Activities
+                            Our Approach
                         </nuxt-link>
                     </li>
                     <li class="divider" tabindex="-1"></li>
                     <li>
-                        <nuxt-link to="/">
-                            Sustainability Reporting
+                        <nuxt-link
+                            to="/priority-areas"
+                            class="sidenav-close"
+                        >
+                            Priority Areas
                         </nuxt-link>
                     </li>
-                    <li class="divider" tabindex="-1"></li> -->
+                    <li class="divider" tabindex="-1"></li>
+                    <li>
+                        <nuxt-link
+                            to="/reporting"
+                            class="sidenav-close"
+                        >
+                            Reporting
+                        </nuxt-link>
+                    </li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li>
+                        <nuxt-link
+                            to="/divisions"
+                            class="sidenav-close"
+                        >
+                            Divisions
+                        </nuxt-link>
+                    </li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li>
+                        <nuxt-link
+                            to="/awards"
+                            class="sidenav-close"
+                        >
+                            Awards
+                        </nuxt-link>
+                    </li>
                     <!-- <div class="arrow-up"></div> -->
                 </ul>
             </li>
