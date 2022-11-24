@@ -38,10 +38,18 @@
                             <img src="~/assets/images/cdp.png" alt="cdp">
                           </a>
                         </div>
+                        <div class="esg-year">2021</div>
                         <div class="esg-content">
                           <img src="~/assets/images/cdp-1.png" alt="cdp figures" class="cdp-img">
                           <img src="~/assets/images/cdp-2.png" alt="cdp figures" class="cdp-img">
                           <img src="~/assets/images/cdp-3.png" alt="cdp figures" class="cdp-img">
+                        </div>
+
+                        <div class="esg-year">2022</div>
+                        <div class="esg-content">
+                          <img src="~/assets/images/cdp-2022-1.png" alt="cdp figures" class="cdp-img white-bg">
+                          <img src="~/assets/images/cdp-2022-2.png" alt="cdp figures" class="cdp-img white-bg">
+                          <img src="~/assets/images/cdp-2022-3.png" alt="cdp figures" class="cdp-img white-bg">
                         </div>
                       </div>
 
@@ -77,7 +85,16 @@
                                   pre-audit tool to help us prepare for a SMETA (Sedex Members Ethical Trade Audit)
                               </p>
                           </div>
-                          <img src="~/assets/images/sedex-progress.png" alt="sedex progress" class="sedex-img">
+                          <div class="sedex-grid-wrapper">
+                            <div class="sedex-grid-block">
+                              <div class="esg-year">2021</div>
+                              <img src="~/assets/images/sedex-progress.png" alt="sedex progress" class="sedex-img">
+                            </div>
+                            <div class="sedex-grid-block">
+                              <div class="esg-year">2022</div>
+                              <span>Next SAQ is in April 2023.</span>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -326,6 +343,17 @@ table#corporate-customers {
     margin-bottom: 30px;
 }
 
+.esg-year {
+    font-size: 32px;
+    font-family: var(--font-bold);
+    margin: 10px 0;
+}
+.sedex-grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
 @media (max-width: 600px) {
     .sdt-img-div > div {
         margin-top: 0;
@@ -339,6 +367,10 @@ table#corporate-customers {
     #cdp-block .esg-content, .ecovadis-content-row {
       grid-template-columns: 100%;
     }
+
+    /* .sedex-grid-wrapper {
+      grid-template-columns: 100%;
+    } */
 }
 </style>
 

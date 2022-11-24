@@ -10,13 +10,13 @@
         <section id="products-wrapper">
             <div class="row">
                 <div class="container">
-                    <div class="short-desc-txt col s12">
-                        <div class="col s12 m4 offset-m4 pad0-xs">
+                    <div class="short-desc-txt flex-div-lg col s12">
+                        <div class="col s12 m4 pad0-xs">
                             <div class="sdt-img-div">
                                 <div></div>
                             </div>
                         </div>
-                        <div class="col s12 pad0-xs">
+                        <div class="col s12 m8 pad0-xs">
                             <div class="text-justify-xs">
                                 <p>
                                     We report against our sustainability goals in our Annual Sustainability
@@ -174,8 +174,14 @@ img.a-block-thumbnail {
     background-position: center;
     background-repeat: no-repeat;
     padding-bottom: 100%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 18px;
+}
+@media (min-width: 993px) {
+  .flex-div-lg {
+    display: flex;
+    align-items: center;
+  }
 }
 @media (max-width: 600px) {
     .sdt-img-div > div {
