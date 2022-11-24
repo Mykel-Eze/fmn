@@ -40,9 +40,9 @@
         <section id="products-wrapper">
             <div class="row">
                 <div class="container">
-                    <div class="title-bar teal-bg">
+                    <!-- <div class="title-bar teal-bg">
                         <h5>Apapa Bulk Terminal Limited</h5>
-                    </div>
+                    </div> -->
                     <div class="short-desc-txt col s12">
                         <div class="col s12 m4 pad0-xs">
                             <div class="sdt-img-div">

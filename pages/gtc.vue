@@ -40,9 +40,9 @@
         <section id="products-wrapper">
             <div class="row">
                 <div class="container">
-                    <div class="title-bar yellow-bg">
+                    <!-- <div class="title-bar yellow-bg">
                         <h5>Golden Transport Company</h5>
-                    </div>
+                    </div> -->
                     <div class="short-desc-txt col s12">
                         <div class="col s12 m4 pad0-xs">
                             <div class="sdt-img-div">

@@ -15,9 +15,9 @@
       <section id="products-wrapper">
           <div class="row">
               <div class="container">
-                  <div class="title-bar blue-bg">
+                  <!-- <div class="title-bar blue-bg">
                       <h5>Golden Sugar Company Limited</h5>
-                  </div>
+                  </div> -->
                   <div class="short-desc-txt col s12">
                       <div class="col s12 m4 pad0-xs">
                           <div class="sdt-img-div">

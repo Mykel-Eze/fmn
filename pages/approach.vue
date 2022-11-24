@@ -48,7 +48,7 @@
               <div class="container">
                   <div class="col s12 txt-secc-wrapper1 pad0">
                       <div class="approach-img-wrapper">
-                        <img src="../assets/images/picture1.png" alt="picture1" class="approach-img">
+                        <img src="../assets/images/sdg.jpg" alt="sdg" class="approach-img">
                         <img src="../assets/images/picture2.png" alt="picture2" class="approach-img">
                       </div>
                   </div>
@@ -75,10 +75,18 @@ export default Vue.extend({
 .approach-img-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
   gap: 20px;
   margin: 30px 0;
 }
 img.approach-img {
   width: 100%;
+}
+
+@media(max-width: 600px) {
+  .approach-img-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 </style>

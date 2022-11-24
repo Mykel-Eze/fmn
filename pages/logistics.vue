@@ -34,9 +34,9 @@
         <section id="products-wrapper">
             <div class="row">
                 <div class="container">
-                    <div class="title-bar green-bg">
+                    <!-- <div class="title-bar green-bg">
                         <h5>Bagco</h5>
-                    </div>
+                    </div> -->
                     <div class="short-desc-txt">
                         <p>
                             BAGCO, a division of Flour Mill of Nigeria (FMN PLC) is recognized
