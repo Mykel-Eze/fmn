@@ -31,7 +31,7 @@
       <section class="more-txt-sec">
           <div class="row sec2">
               <div class="container">
-                  <div class="col s12 txt-secc-wrapper2 pad0">
+                  <div class="col s12 txt-secc-wrapper2 pad0 flex-div-lg">
                       <div class="col s12 m6 pad0">
                           <img
                               src="https://flourmills.s3.eu-central-1.amazonaws.com/images/sust-img-2.jpg"
@@ -41,9 +41,9 @@
                       </div>
                       <div class="col s12 m6 pad0 dfb">
                           <div class="text-justify txt-secc rel">
-                              <div class="title-secc-bar green-bg">
+                              <!-- <div class="title-secc-bar green-bg">
                                   <h5>Backward Integration</h5>
-                              </div>
+                              </div> -->
                               <p class="text-secc-p">
                                   <b>
                                       FMN PLC has invested more than N150
@@ -111,5 +111,18 @@ export default Vue.extend({
 }
 .text-secc-p {
   padding: 0 20px;
+}
+
+@media (min-width: 993px) {
+  .flex-div-lg {
+    display: flex;
+    align-items: center;
+  }
+  .full-width.bi-img {
+    width: 90%;
+  }
+  .txt-secc-wrapper2 {
+    margin: 30px 0;
+  }
 }
 </style>
