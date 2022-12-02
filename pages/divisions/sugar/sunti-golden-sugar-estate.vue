@@ -108,8 +108,8 @@
                 <div class="col s12 pad0">
                     <div class="text-justify txt-secc">
                         <p class="" style="padding-right: 0">
-                            Sunti Brown Sugar is produced at Sunti Golden Sugar Estates, which is owned and operated by
-                            Golden Sugar Company.
+                            Sunti Brown Sugar is produced at Sunti Golden Sugar Estates (SGSE), which is owned and operated by
+                            Golden Sugar Company (GSC).
                         </p>
                         <p class="" style="padding-right: 0">
                             Sunti Golden Sugar Estate located at Sunti, Niger State consist of a 17,000 hectares irrigable
@@ -152,7 +152,7 @@
 
       <div class="more-about-gsc-wrapper center">
         <nuxt-link to="/divisions/sugar/quality-assurance" id="more-about-gsc">
-          More About Golden Sugar Company
+          More About GSC Sustainability and ESG Disclosures
         </nuxt-link>
       </div>
   </div>

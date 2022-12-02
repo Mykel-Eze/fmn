@@ -28,13 +28,13 @@
                           <div class="text-justify-xs">
                               <ul class="dotted-list">
                                   <li>
-                                      Golden Sugar Company is one of Nigeria’s biggest producers of refined premium sugar
+                                      Golden Sugar Company (GSC) is one of Nigeria’s biggest producers of refined premium sugar
                                       with state-of-the art sugar refinery in Apapa, Lagos State and sugar mill in Sunti,
                                       Niger State.
                                   </li>
                                   <li>
                                       We are one of the leading suppliers of sugar to various local & international
-                                      corporate B2B customers.
+                                      corporate customers.
                                   </li>
                                   <li>
                                       Our product portfolio includes Premium White Granulated Sugar, Granulated Brown Sugar,
@@ -130,7 +130,7 @@
 
       <div class="more-about-gsc-wrapper center">
         <nuxt-link to="/divisions/sugar/quality-assurance" id="more-about-gsc">
-          More About GSC Sustainability
+          More About GSC Sustainability and ESG Disclosures
         </nuxt-link>
       </div>
 

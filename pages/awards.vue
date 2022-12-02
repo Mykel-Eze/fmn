@@ -13,74 +13,106 @@
         <div class="row">
           <div class="container">
             <div class="awards-album-wrapper">
-              <div class="awards-album-title yellow-bg">SERAS Award for Supply Chain (2020 and 2021)</div>
+              <div class="awards-album-title yellow-bg">SERAS Award for Supply Chain Management (2020 and 2021)</div>
               <div class="award-images-wrapper">
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-1.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-1.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-2.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-2.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-3.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-3.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-4.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-4.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-5.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-5.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-6.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-6.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-7.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-7.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-8.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-8.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-9.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-9.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-10.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-10.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-11.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-11.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-12.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-12.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-13.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-13.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-14.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-14.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-15.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-15.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-16.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-16.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-17.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-17.jpg" alt="SERAS award" class="award-image materialboxed">
                 </div>
                 <div class="award-image-block">
-                  <img src="~/assets/images/awards/award-18.jpg" alt="award" class="award-image materialboxed">
+                  <img src="~/assets/images/awards/seras-2020-2021/award-18.jpg" alt="SERAS award" class="award-image materialboxed">
+                </div>
+              </div>
+            </div>
+
+            <div class="awards-album-wrapper">
+              <div class="awards-album-title green-bg">ICSAN Corporate Governance Award (2022)</div>
+              <div class="award-images-wrapper">
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-1.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-2.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-3.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-4.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-5.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-6.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-7.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-8.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-9.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-10.jpg" alt="ICSAN award" class="award-image materialboxed">
+                </div>
+                <div class="award-image-block">
+                  <img src="~/assets/images/awards/icsan-2022/icsan-11.jpg" alt="ICSAN award" class="award-image materialboxed">
                 </div>
               </div>
             </div>
 
             <div class="awards-album-wrapper">
               <div class="awards-album-title lemon-bg">SERAS Award  for Best New Entry 2019</div>
-              <div class="award-images-wrapper">
-                <div class="award-image-block"></div>
-              </div>
-            </div>
-
-            <div class="awards-album-wrapper">
-              <div class="awards-album-title green-bg">ICSAN Corporate Governance Award (2022)</div>
               <div class="award-images-wrapper">
                 <div class="award-image-block"></div>
               </div>

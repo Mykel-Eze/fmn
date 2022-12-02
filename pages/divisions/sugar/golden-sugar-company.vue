@@ -34,7 +34,7 @@
                                   </li>
                                   <li>
                                       We are one of the leading suppliers of sugar to various local & international
-                                      corporate B2B customers.
+                                      corporate customers.
                                   </li>
                                   <li>
                                       Our product portfolio includes Premium White Granulated Sugar, Granulated Brown Sugar,
@@ -136,7 +136,7 @@
 
       <div class="more-about-gsc-wrapper center">
         <nuxt-link to="/divisions/sugar/quality-assurance" id="more-about-gsc">
-          More About Golden Sugar Company
+          More About GSC Sustainability and ESG Disclosures
         </nuxt-link>
       </div>
 
