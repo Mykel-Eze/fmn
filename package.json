@@ -8,7 +8,7 @@
         "start": "nuxt-ts start",
         "export": "nuxt-ts export",
         "serve": "nuxt-ts serve",
-	"prod": "nuxt-ts build"
+        "prod": "nuxt-ts build"
     },
     "dependencies": {
         "@nuxt/typescript-runtime": "^0.4.10",
@@ -19,12 +19,14 @@
         "bootstrap-vue": "^2.17.3",
         "chart.js": "^2.9.3",
         "cheerio": "^1.0.0-rc.3",
+        "html2canvas": "^1.4.1",
         "jquery": "^3.5.1",
         "material-design-icons": "^3.0.1",
         "materialize-css": "^1.0.0",
         "moment": "^2.27.0",
         "net": "^1.0.2",
         "nuxt": "^2.13.0",
+        "postcss": "^8.4.30",
         "request": "^2.88.2",
         "sass-loader": "^10.0.2",
         "tls": "0.0.1",

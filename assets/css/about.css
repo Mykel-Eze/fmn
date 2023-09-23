@@ -120,6 +120,15 @@ section#sec-home {
     background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/diversity-bg.jpg);
 }
 
+.campaign-page section#sec-home {
+  background-image: url(../images/63-flyer.jpeg);
+  background-position: center 10%;
+  height: 400px;
+}
+.campaign-page section#sec-home .page-title {
+  display: none;
+}
+
 .contact-page section#sharePage {
     display: none;
 }
