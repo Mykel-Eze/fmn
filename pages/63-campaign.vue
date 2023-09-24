@@ -3,7 +3,7 @@
     <!--=== Page Banner Section ===-->
       <PageBanner
           pageTitle=""
-          pageCrumbName="63 campaign"
+          pageCrumbName="63 hands of FMN campaign"
           class="campaign-page"
       />
       <!--=== end of Page Banner Section ===-->
@@ -101,7 +101,7 @@
 <script>
 import Vue from 'vue';
 import PageBanner from '~/components/PageBanner.vue';
-import html2canvas from 'html2canvas';
+import domtoimage from 'dom-to-image';
 
 export default Vue.extend({
     name: '63_campaign',
@@ -142,37 +142,43 @@ export default Vue.extend({
         }
       },
       downloadImage() {
-        // Create a new canvas element
-        const canvas = document.createElement('canvas');
-        const context = canvas.getContext('2d');
-
-        // Get the .upload--wrapper element
+        // Get the refs(uploadWrapper) element
         const uploadWrapper = this.$refs.uploadWrapper;
 
-        // Set canvas dimensions to match .upload--wrapper
+        // Create a new canvas element
+        const canvas = document.createElement('canvas');
         canvas.width = uploadWrapper.clientWidth;
         canvas.height = uploadWrapper.clientHeight;
 
-        // Draw the content of .upload--wrapper on the canvas
-        html2canvas(uploadWrapper, {
-          canvas: canvas,
-        }).then((canvas) => {
-          // Convert the canvas to a data URL
-          const dataUrl = canvas.toDataURL('image/png');
+        // Use dom-to-image to capture the content and render it on the canvas
+        domtoimage.toPng(uploadWrapper)
+          .then((dataUrl) => {
+            // Draw the captured image data on the canvas
+            const ctx = canvas.getContext('2d');
+            const img = new Image();
+            img.src = dataUrl;
+            img.onload = () => {
+              ctx.drawImage(img, 0, 0);
+              // Convert the canvas to a data URL
+              const finalDataUrl = canvas.toDataURL('image/jpg');
 
-          // Create a download link for the image
-          const downloadLink = document.createElement('a');
-          downloadLink.href = dataUrl;
-          downloadLink.download = 'snapshot.png';
+              // Create a download link for the image
+              const downloadLink = document.createElement('a');
+              downloadLink.href = finalDataUrl;
+              downloadLink.download = 'snapshot.jpg';
 
-          // Trigger a click event on the download link
-          document.body.appendChild(downloadLink);
-          downloadLink.click();
-          document.body.removeChild(downloadLink);
+              // Trigger a click event on the download link
+              document.body.appendChild(downloadLink);
+              downloadLink.click();
+              document.body.removeChild(downloadLink);
 
-          // Clear the input fields
-          this.clearInputFields();
-        });
+              // Clear the input fields
+              this.clearInputFields();
+            };
+          })
+          .catch((error) => {
+            console.error('Error capturing image:', error);
+          });
       },
       clearInputFields() {
         // Clear all input fields in the form
