@@ -121,13 +121,21 @@ section#sec-home {
 }
 
 .campaign-page section#sec-home {
-  background-image: url(../images/63-flyer.jpeg);
-  background-position: center 10%;
-  height: 400px;
+  background-image: url(../images/helping-hands.png);
+  position: relative;
 }
-.campaign-page section#sec-home .page-title {
+.campaign-page section#sec-home::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* .campaign-page section#sec-home .page-title {
   display: none;
-}
+} */
 
 .contact-page section#sharePage {
     display: none;

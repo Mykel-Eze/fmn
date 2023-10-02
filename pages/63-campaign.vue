@@ -2,13 +2,96 @@
   <div>
     <!--=== Page Banner Section ===-->
       <PageBanner
-          pageTitle=""
+          pageTitle="63 hands of FMN"
           pageCrumbName="63 hands of FMN campaign"
           class="campaign-page"
       />
       <!--=== end of Page Banner Section ===-->
 
-      <section class="more-txt-sec">
+      <!--=== How-To-Join Section ===-->
+      <section id="how-to-join">
+        <div class="row">
+          <div class="container">
+            <h3 class="section-txt-title bold-txt center">How To Join</h3>
+            <div class="grid-4 htj-wrapper">
+              <div class="htj-item">
+                <img src="~/assets/images/p-1.png" alt="1" class="num-img">
+                <div class="htj-box-desc">
+                  Fill the link in the bio
+                </div>
+              </div>
+              <div class="htj-item">
+                <img src="~/assets/images/p-2.png" alt="1" class="num-img">
+                <div class="htj-box-desc">
+                  Download the exclusive <a href="#campaign-form-section" class="pry-color">"63 hands of FMN"</a> frame.
+                </div>
+              </div>
+              <div class="htj-item">
+                <img src="~/assets/images/p-3.png" alt="1" class="num-img">
+                <div class="htj-box-desc">
+                  Share it on your social media pages with a message of support.
+                </div>
+              </div>
+              <div class="htj-item">
+                <img src="~/assets/images/p-4.png" alt="1" class="num-img">
+                <div class="htj-box-desc">
+                  Don't forget to tag us <span class="sec-color">@thefmngroup</span> and
+                  <span class="sec-color">@thefmnagro</span> to show your participation.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=== end of How-To-Join Section ===-->
+
+      <!--=== Selection-Criteria Section ===-->
+      <section id="selection-criteria">
+        <div class="row">
+          <div class="container">
+            <div class="selection-criteria-wrapper">
+              <div class="sc-txt-side">
+                <h3 class="section-txt-title bold-txt">Selection Criteria</h3>
+                <ul>
+                  <li class="flex-div">
+                    <img src="~/assets/images/point.png" alt="point" class="point-icon">
+                    <div>
+                      Participants with the most social media engagement on their application pictures.
+                    </div>
+                  </li>
+                  <li class="flex-div">
+                    <img src="~/assets/images/point.png" alt="point" class="point-icon">
+                    <div>
+                      Participants that proposed verifiable agencies or communities, either a website or
+                      social media handles.
+                    </div>
+                  </li>
+                  <li class="flex-div">
+                    <img src="~/assets/images/point.png" alt="point" class="point-icon">
+                    <div>
+                      Participants whose proposed agency or community is accessible to our sales representative
+                      or delivery team.
+                    </div>
+                  </li>
+                  <li class="flex-div">
+                    <img src="~/assets/images/point.png" alt="point" class="point-icon">
+                    <div>
+                      Follow FMN Group, Tag FMN Group on your campaign posts, and get your friends to engage the post.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="sc-img-side">
+                <img src="~/assets/images/nigeria-hand.jpeg" alt="nigeria-hand" class="sc-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=== end of Selection-Criteria Section ===-->
+
+      <!--=== Campaign-Form Section ===-->
+      <section id="campaign-form-section" class="more-txt-sec">
           <div class="row sec1">
               <div class="container">
                 <form action="#" @submit.prevent="downloadImage">
@@ -94,6 +177,7 @@
               </div>
           </div>
       </section>
+      <!--=== end of Campaign-Form Section ===-->
 
   </div>
 </template>
@@ -282,9 +366,64 @@ img.applicant-img {
     font-weight: bold;
 }
 
+section#how-to-join {
+  padding: 10px 0 10px;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.htj-wrapper {
+  margin: 40px 0;
+}
+.htj-item {
+  box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.theme-dark .htj-item {
+  box-shadow: 0px 0px 15px -3px rgba(245,245,245,0.2);
+}
+.htj-item > img {
+  margin-bottom: 12px;
+}
+.htj-item a {
+  text-decoration: underline;
+}
+
+section#selection-criteria {
+  padding: 20px 0 30px;
+}
+.selection-criteria-wrapper {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 30px;
+  margin: 20px 0;
+}
+.sc-txt-side li.flex-div {
+    gap: 5px;
+    font-size: 20px;
+    padding: 6px 0;
+}
+.sc-txt-side h3.section-txt-title.bold-txt {
+    margin: 0 0 24px;
+}
+.sc-img-side {
+    padding-left: 40px;
+}
+img.sc-img {
+  border-radius: 10px;
+}
+
 @media (min-width: 993px) {
   .flex-div-lg {
     display: flex;
+    align-items: center;
+  }
+  .selection-criteria-wrapper {
     align-items: center;
   }
 }
@@ -293,6 +432,23 @@ img.applicant-img {
   .form-div {
     grid-template-columns: 100%;
     gap: 30px;
+  }
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .selection-criteria-wrapper {
+    grid-template-columns: 100%;
+    gap: 20px;
+  }
+  .sc-img-side {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-4 {
+    grid-template-columns: 100%;
   }
 }
 </style>
