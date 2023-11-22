@@ -4,67 +4,67 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _1f452e7e = () => interopDefault(import('..\\pages\\63-campaign.vue' /* webpackChunkName: "pages/63-campaign" */))
-const _f2a77324 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _2508f888 = () => interopDefault(import('..\\pages\\abtl.vue' /* webpackChunkName: "pages/abtl" */))
-const _89fec052 = () => interopDefault(import('..\\pages\\agm-2021-live.vue' /* webpackChunkName: "pages/agm-2021-live" */))
-const _49e4d720 = () => interopDefault(import('..\\pages\\agro-allied\\index.vue' /* webpackChunkName: "pages/agro-allied/index" */))
-const _71d95252 = () => interopDefault(import('..\\pages\\approach.vue' /* webpackChunkName: "pages/approach" */))
-const _13d493a5 = () => interopDefault(import('..\\pages\\awards.vue' /* webpackChunkName: "pages/awards" */))
-const _b52812de = () => interopDefault(import('..\\pages\\awards-and-accolades.vue' /* webpackChunkName: "pages/awards-and-accolades" */))
-const _54e02211 = () => interopDefault(import('..\\pages\\blog\\index.vue' /* webpackChunkName: "pages/blog/index" */))
-const _76c8bd47 = () => interopDefault(import('..\\pages\\board.vue' /* webpackChunkName: "pages/board" */))
-const _5b30a956 = () => interopDefault(import('..\\pages\\careers.vue' /* webpackChunkName: "pages/careers" */))
-const _e19d917e = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _12a967c2 = () => interopDefault(import('..\\pages\\cookies-policy.vue' /* webpackChunkName: "pages/cookies-policy" */))
-const _61cc1c75 = () => interopDefault(import('..\\pages\\d-a-i.vue' /* webpackChunkName: "pages/d-a-i" */))
-const _16d1015a = () => interopDefault(import('..\\pages\\diversity-and-inclusion.vue' /* webpackChunkName: "pages/diversity-and-inclusion" */))
-const _4f68ff5b = () => interopDefault(import('..\\pages\\divisions\\index.vue' /* webpackChunkName: "pages/divisions/index" */))
-const _98065f0a = () => interopDefault(import('..\\pages\\feeding-the-nation.vue' /* webpackChunkName: "pages/feeding-the-nation" */))
-const _30c53d0c = () => interopDefault(import('..\\pages\\foods\\index.vue' /* webpackChunkName: "pages/foods/index" */))
-const _0ca5a173 = () => interopDefault(import('..\\pages\\gallery.vue' /* webpackChunkName: "pages/gallery" */))
-const _6cc7e5b7 = () => interopDefault(import('..\\pages\\gtc.vue' /* webpackChunkName: "pages/gtc" */))
-const _93f42172 = () => interopDefault(import('..\\pages\\history-heritage.vue' /* webpackChunkName: "pages/history-heritage" */))
-const _6e3fc071 = () => interopDefault(import('..\\pages\\investor-relations.vue' /* webpackChunkName: "pages/investor-relations" */))
-const _35cf5c6a = () => interopDefault(import('..\\pages\\investor-relations-old.vue' /* webpackChunkName: "pages/investor-relations-old" */))
-const _800e8518 = () => interopDefault(import('..\\pages\\logistics.vue' /* webpackChunkName: "pages/logistics" */))
-const _44ccfc48 = () => interopDefault(import('..\\pages\\management-team.vue' /* webpackChunkName: "pages/management-team" */))
-const _2886467d = () => interopDefault(import('..\\pages\\post-page.vue' /* webpackChunkName: "pages/post-page" */))
-const _53ac0064 = () => interopDefault(import('..\\pages\\press-release\\index.vue' /* webpackChunkName: "pages/press-release/index" */))
-const _09338b76 = () => interopDefault(import('..\\pages\\priority-areas\\index.vue' /* webpackChunkName: "pages/priority-areas/index" */))
-const _8d6d74f4 = () => interopDefault(import('..\\pages\\privacy-policy.vue' /* webpackChunkName: "pages/privacy-policy" */))
-const _edb53d82 = () => interopDefault(import('..\\pages\\purpose.vue' /* webpackChunkName: "pages/purpose" */))
-const _7db5240f = () => interopDefault(import('..\\pages\\reporting.vue' /* webpackChunkName: "pages/reporting" */))
-const _61ef3435 = () => interopDefault(import('..\\pages\\search-page.vue' /* webpackChunkName: "pages/search-page" */))
-const _0945f07a = () => interopDefault(import('..\\pages\\subsidiaries.vue' /* webpackChunkName: "pages/subsidiaries" */))
-const _407918d2 = () => interopDefault(import('..\\pages\\sugar.vue' /* webpackChunkName: "pages/sugar" */))
-const _457f5fd4 = () => interopDefault(import('..\\pages\\sustainability.vue' /* webpackChunkName: "pages/sustainability" */))
-const _52da19d4 = () => interopDefault(import('..\\pages\\vision-mission.vue' /* webpackChunkName: "pages/vision-mission" */))
-const _579bf4b1 = () => interopDefault(import('..\\pages\\agro-allied\\agro-inputs.vue' /* webpackChunkName: "pages/agro-allied/agro-inputs" */))
-const _03117ec6 = () => interopDefault(import('..\\pages\\agro-allied\\oil-and-fats.vue' /* webpackChunkName: "pages/agro-allied/oil-and-fats" */))
-const _497d1597 = () => interopDefault(import('..\\pages\\agro-allied\\Starches.vue' /* webpackChunkName: "pages/agro-allied/Starches" */))
-const _29330dc2 = () => interopDefault(import('..\\pages\\agro-allied\\Sweeteners.vue' /* webpackChunkName: "pages/agro-allied/Sweeteners" */))
-const _7fef600c = () => interopDefault(import('..\\pages\\divisions\\agro-allied.vue' /* webpackChunkName: "pages/divisions/agro-allied" */))
-const _3e661cde = () => interopDefault(import('..\\pages\\divisions\\foods.vue' /* webpackChunkName: "pages/divisions/foods" */))
-const _48bd5de3 = () => interopDefault(import('..\\pages\\divisions\\sugar\\index.vue' /* webpackChunkName: "pages/divisions/sugar/index" */))
-const _a2fc78ba = () => interopDefault(import('..\\pages\\divisions\\support-services.vue' /* webpackChunkName: "pages/divisions/support-services" */))
-const _fbb39f86 = () => interopDefault(import('..\\pages\\foods\\ball-foods.vue' /* webpackChunkName: "pages/foods/ball-foods" */))
-const _05131f00 = () => interopDefault(import('..\\pages\\foods\\flour.vue' /* webpackChunkName: "pages/foods/flour" */))
-const _469d9c92 = () => interopDefault(import('..\\pages\\foods\\impulse-foods.vue' /* webpackChunkName: "pages/foods/impulse-foods" */))
-const _2e1d053a = () => interopDefault(import('..\\pages\\foods\\oil-and-spread.vue' /* webpackChunkName: "pages/foods/oil-and-spread" */))
-const _0ae5a1f6 = () => interopDefault(import('..\\pages\\priority-areas\\backward-integration.vue' /* webpackChunkName: "pages/priority-areas/backward-integration" */))
-const _84bca07a = () => interopDefault(import('..\\pages\\priority-areas\\community-investment.vue' /* webpackChunkName: "pages/priority-areas/community-investment" */))
-const _41b7fed6 = () => interopDefault(import('..\\pages\\priority-areas\\diversity-and-inclusion.vue' /* webpackChunkName: "pages/priority-areas/diversity-and-inclusion" */))
-const _e7d529d0 = () => interopDefault(import('..\\pages\\priority-areas\\feeding-the-nation.vue' /* webpackChunkName: "pages/priority-areas/feeding-the-nation" */))
-const _1d558cac = () => interopDefault(import('..\\pages\\priority-areas\\index2.vue' /* webpackChunkName: "pages/priority-areas/index2" */))
-const _58b863be = () => interopDefault(import('..\\pages\\divisions\\sugar\\golden-sugar-company.vue' /* webpackChunkName: "pages/divisions/sugar/golden-sugar-company" */))
-const _9013bfea = () => interopDefault(import('..\\pages\\divisions\\sugar\\hse.vue' /* webpackChunkName: "pages/divisions/sugar/hse" */))
-const _687838f0 = () => interopDefault(import('..\\pages\\divisions\\sugar\\quality-assurance.vue' /* webpackChunkName: "pages/divisions/sugar/quality-assurance" */))
-const _55a8460c = () => interopDefault(import('..\\pages\\divisions\\sugar\\sunti-golden-sugar-estate.vue' /* webpackChunkName: "pages/divisions/sugar/sunti-golden-sugar-estate" */))
-const _0fef4d34 = () => interopDefault(import('..\\pages\\divisions\\sugar\\sustainability.vue' /* webpackChunkName: "pages/divisions/sugar/sustainability" */))
-const _b337bd9a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _00fd168e = () => interopDefault(import('..\\pages\\blog\\_id.vue' /* webpackChunkName: "pages/blog/_id" */))
-const _cb726868 = () => interopDefault(import('..\\pages\\press-release\\_id.vue' /* webpackChunkName: "pages/press-release/_id" */))
+const _069812a7 = () => interopDefault(import('../pages/63-campaign.vue' /* webpackChunkName: "pages/63-campaign" */))
+const _3de45658 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _02adf53c = () => interopDefault(import('../pages/abtl.vue' /* webpackChunkName: "pages/abtl" */))
+const _2d38683d = () => interopDefault(import('../pages/agm-2021-live.vue' /* webpackChunkName: "pages/agm-2021-live" */))
+const _7af8938a = () => interopDefault(import('../pages/agro-allied/index.vue' /* webpackChunkName: "pages/agro-allied/index" */))
+const _f465329e = () => interopDefault(import('../pages/approach.vue' /* webpackChunkName: "pages/approach" */))
+const _05a4d1ff = () => interopDefault(import('../pages/awards.vue' /* webpackChunkName: "pages/awards" */))
+const _33c9e12a = () => interopDefault(import('../pages/awards-and-accolades.vue' /* webpackChunkName: "pages/awards-and-accolades" */))
+const _d9e66724 = () => interopDefault(import('../pages/blog/index.vue' /* webpackChunkName: "pages/blog/index" */))
+const _5dab68a6 = () => interopDefault(import('../pages/board.vue' /* webpackChunkName: "pages/board" */))
+const _b92f9388 = () => interopDefault(import('../pages/careers.vue' /* webpackChunkName: "pages/careers" */))
+const _512e77b2 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _6926df0e = () => interopDefault(import('../pages/cookies-policy.vue' /* webpackChunkName: "pages/cookies-policy" */))
+const _87a4aa4a = () => interopDefault(import('../pages/d-a-i.vue' /* webpackChunkName: "pages/d-a-i" */))
+const _4cd48039 = () => interopDefault(import('../pages/diversity-and-inclusion.vue' /* webpackChunkName: "pages/diversity-and-inclusion" */))
+const _d0c03920 = () => interopDefault(import('../pages/divisions/index.vue' /* webpackChunkName: "pages/divisions/index" */))
+const _037057d5 = () => interopDefault(import('../pages/feeding-the-nation.vue' /* webpackChunkName: "pages/feeding-the-nation" */))
+const _5e9fe2c2 = () => interopDefault(import('../pages/foods/index.vue' /* webpackChunkName: "pages/foods/index" */))
+const _54dd2e59 = () => interopDefault(import('../pages/gallery.vue' /* webpackChunkName: "pages/gallery" */))
+const _523454c6 = () => interopDefault(import('../pages/gtc.vue' /* webpackChunkName: "pages/gtc" */))
+const _5f878521 = () => interopDefault(import('../pages/history-heritage.vue' /* webpackChunkName: "pages/history-heritage" */))
+const _8499706a = () => interopDefault(import('../pages/investor-relations.vue' /* webpackChunkName: "pages/investor-relations" */))
+const _9336c7b6 = () => interopDefault(import('../pages/investor-relations-old.vue' /* webpackChunkName: "pages/investor-relations-old" */))
+const _4efeae4c = () => interopDefault(import('../pages/logistics.vue' /* webpackChunkName: "pages/logistics" */))
+const _0834432e = () => interopDefault(import('../pages/management-team.vue' /* webpackChunkName: "pages/management-team" */))
+const _410e31e3 = () => interopDefault(import('../pages/post-page.vue' /* webpackChunkName: "pages/post-page" */))
+const _110b8b72 = () => interopDefault(import('../pages/press-release/index.vue' /* webpackChunkName: "pages/press-release/index" */))
+const _0c448c2e = () => interopDefault(import('../pages/priority-areas/index.vue' /* webpackChunkName: "pages/priority-areas/index" */))
+const _e3eaec40 = () => interopDefault(import('../pages/privacy-policy.vue' /* webpackChunkName: "pages/privacy-policy" */))
+const _5d4623b6 = () => interopDefault(import('../pages/purpose.vue' /* webpackChunkName: "pages/purpose" */))
+const _d385e116 = () => interopDefault(import('../pages/reporting.vue' /* webpackChunkName: "pages/reporting" */))
+const _7829de1b = () => interopDefault(import('../pages/search-page.vue' /* webpackChunkName: "pages/search-page" */))
+const _8b3ef958 = () => interopDefault(import('../pages/subsidiaries.vue' /* webpackChunkName: "pages/subsidiaries" */))
+const _3a2501fd = () => interopDefault(import('../pages/sugar.vue' /* webpackChunkName: "pages/sugar" */))
+const _9bfcd720 = () => interopDefault(import('../pages/sustainability.vue' /* webpackChunkName: "pages/sustainability" */))
+const _a9579120 = () => interopDefault(import('../pages/vision-mission.vue' /* webpackChunkName: "pages/vision-mission" */))
+const _22735b88 = () => interopDefault(import('../pages/agro-allied/agro-inputs.vue' /* webpackChunkName: "pages/agro-allied/agro-inputs" */))
+const _4c989472 = () => interopDefault(import('../pages/agro-allied/oil-and-fats.vue' /* webpackChunkName: "pages/agro-allied/oil-and-fats" */))
+const _94b8c828 = () => interopDefault(import('../pages/agro-allied/Starches.vue' /* webpackChunkName: "pages/agro-allied/Starches" */))
+const _2ff68398 = () => interopDefault(import('../pages/agro-allied/Sweeteners.vue' /* webpackChunkName: "pages/agro-allied/Sweeteners" */))
+const _2931df62 = () => interopDefault(import('../pages/divisions/agro-allied.vue' /* webpackChunkName: "pages/divisions/agro-allied" */))
+const _f2c5fe1a = () => interopDefault(import('../pages/divisions/foods.vue' /* webpackChunkName: "pages/divisions/foods" */))
+const _62790d57 = () => interopDefault(import('../pages/divisions/sugar/index.vue' /* webpackChunkName: "pages/divisions/sugar/index" */))
+const _2166f06e = () => interopDefault(import('../pages/divisions/support-services.vue' /* webpackChunkName: "pages/divisions/support-services" */))
+const _37a33aec = () => interopDefault(import('../pages/foods/ball-foods.vue' /* webpackChunkName: "pages/foods/ball-foods" */))
+const _b6041eda = () => interopDefault(import('../pages/foods/flour.vue' /* webpackChunkName: "pages/foods/flour" */))
+const _16f27f6c = () => interopDefault(import('../pages/foods/impulse-foods.vue' /* webpackChunkName: "pages/foods/impulse-foods" */))
+const _10f94907 = () => interopDefault(import('../pages/foods/oil-and-spread.vue' /* webpackChunkName: "pages/foods/oil-and-spread" */))
+const _093f41ba = () => interopDefault(import('../pages/priority-areas/backward-integration.vue' /* webpackChunkName: "pages/priority-areas/backward-integration" */))
+const _a3c72620 = () => interopDefault(import('../pages/priority-areas/community-investment.vue' /* webpackChunkName: "pages/priority-areas/community-investment" */))
+const _1cfc9689 = () => interopDefault(import('../pages/priority-areas/diversity-and-inclusion.vue' /* webpackChunkName: "pages/priority-areas/diversity-and-inclusion" */))
+const _5ef0e0f6 = () => interopDefault(import('../pages/priority-areas/feeding-the-nation.vue' /* webpackChunkName: "pages/priority-areas/feeding-the-nation" */))
+const _41f12c99 = () => interopDefault(import('../pages/priority-areas/index2.vue' /* webpackChunkName: "pages/priority-areas/index2" */))
+const _cd666fa6 = () => interopDefault(import('../pages/divisions/sugar/golden-sugar-company.vue' /* webpackChunkName: "pages/divisions/sugar/golden-sugar-company" */))
+const _a001c702 = () => interopDefault(import('../pages/divisions/sugar/hse.vue' /* webpackChunkName: "pages/divisions/sugar/hse" */))
+const _66845a64 = () => interopDefault(import('../pages/divisions/sugar/quality-assurance.vue' /* webpackChunkName: "pages/divisions/sugar/quality-assurance" */))
+const _edf49900 = () => interopDefault(import('../pages/divisions/sugar/sunti-golden-sugar-estate.vue' /* webpackChunkName: "pages/divisions/sugar/sunti-golden-sugar-estate" */))
+const _f36e671c = () => interopDefault(import('../pages/divisions/sugar/sustainability.vue' /* webpackChunkName: "pages/divisions/sugar/sustainability" */))
+const _e2c1db54 = () => interopDefault(import('../pages/blog/_id.vue' /* webpackChunkName: "pages/blog/_id" */))
+const _4b10226f = () => interopDefault(import('../pages/press-release/_id.vue' /* webpackChunkName: "pages/press-release/_id" */))
+const _00c5af99 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -79,248 +79,248 @@ export const routerOptions = {
 
   routes: [{
     path: "/63-campaign",
-    component: _1f452e7e,
+    component: _069812a7,
     name: "63-campaign"
   }, {
     path: "/about",
-    component: _f2a77324,
+    component: _3de45658,
     name: "about"
   }, {
     path: "/abtl",
-    component: _2508f888,
+    component: _02adf53c,
     name: "abtl"
   }, {
     path: "/agm-2021-live",
-    component: _89fec052,
+    component: _2d38683d,
     name: "agm-2021-live"
   }, {
     path: "/agro-allied",
-    component: _49e4d720,
+    component: _7af8938a,
     name: "agro-allied"
   }, {
     path: "/approach",
-    component: _71d95252,
+    component: _f465329e,
     name: "approach"
   }, {
     path: "/awards",
-    component: _13d493a5,
+    component: _05a4d1ff,
     name: "awards"
   }, {
     path: "/awards-and-accolades",
-    component: _b52812de,
+    component: _33c9e12a,
     name: "awards-and-accolades"
   }, {
     path: "/blog",
-    component: _54e02211,
+    component: _d9e66724,
     name: "blog"
   }, {
     path: "/board",
-    component: _76c8bd47,
+    component: _5dab68a6,
     name: "board"
   }, {
     path: "/careers",
-    component: _5b30a956,
+    component: _b92f9388,
     name: "careers"
   }, {
     path: "/contact",
-    component: _e19d917e,
+    component: _512e77b2,
     name: "contact"
   }, {
     path: "/cookies-policy",
-    component: _12a967c2,
+    component: _6926df0e,
     name: "cookies-policy"
   }, {
     path: "/d-a-i",
-    component: _61cc1c75,
+    component: _87a4aa4a,
     name: "d-a-i"
   }, {
     path: "/diversity-and-inclusion",
-    component: _16d1015a,
+    component: _4cd48039,
     name: "diversity-and-inclusion"
   }, {
     path: "/divisions",
-    component: _4f68ff5b,
+    component: _d0c03920,
     name: "divisions"
   }, {
     path: "/feeding-the-nation",
-    component: _98065f0a,
+    component: _037057d5,
     name: "feeding-the-nation"
   }, {
     path: "/foods",
-    component: _30c53d0c,
+    component: _5e9fe2c2,
     name: "foods"
   }, {
     path: "/gallery",
-    component: _0ca5a173,
+    component: _54dd2e59,
     name: "gallery"
   }, {
     path: "/gtc",
-    component: _6cc7e5b7,
+    component: _523454c6,
     name: "gtc"
   }, {
     path: "/history-heritage",
-    component: _93f42172,
+    component: _5f878521,
     name: "history-heritage"
   }, {
     path: "/investor-relations",
-    component: _6e3fc071,
+    component: _8499706a,
     name: "investor-relations"
   }, {
     path: "/investor-relations-old",
-    component: _35cf5c6a,
+    component: _9336c7b6,
     name: "investor-relations-old"
   }, {
     path: "/logistics",
-    component: _800e8518,
+    component: _4efeae4c,
     name: "logistics"
   }, {
     path: "/management-team",
-    component: _44ccfc48,
+    component: _0834432e,
     name: "management-team"
   }, {
     path: "/post-page",
-    component: _2886467d,
+    component: _410e31e3,
     name: "post-page"
   }, {
     path: "/press-release",
-    component: _53ac0064,
+    component: _110b8b72,
     name: "press-release"
   }, {
     path: "/priority-areas",
-    component: _09338b76,
+    component: _0c448c2e,
     name: "priority-areas"
   }, {
     path: "/privacy-policy",
-    component: _8d6d74f4,
+    component: _e3eaec40,
     name: "privacy-policy"
   }, {
     path: "/purpose",
-    component: _edb53d82,
+    component: _5d4623b6,
     name: "purpose"
   }, {
     path: "/reporting",
-    component: _7db5240f,
+    component: _d385e116,
     name: "reporting"
   }, {
     path: "/search-page",
-    component: _61ef3435,
+    component: _7829de1b,
     name: "search-page"
   }, {
     path: "/subsidiaries",
-    component: _0945f07a,
+    component: _8b3ef958,
     name: "subsidiaries"
   }, {
     path: "/sugar",
-    component: _407918d2,
+    component: _3a2501fd,
     name: "sugar"
   }, {
     path: "/sustainability",
-    component: _457f5fd4,
+    component: _9bfcd720,
     name: "sustainability"
   }, {
     path: "/vision-mission",
-    component: _52da19d4,
+    component: _a9579120,
     name: "vision-mission"
   }, {
     path: "/agro-allied/agro-inputs",
-    component: _579bf4b1,
+    component: _22735b88,
     name: "agro-allied-agro-inputs"
   }, {
     path: "/agro-allied/oil-and-fats",
-    component: _03117ec6,
+    component: _4c989472,
     name: "agro-allied-oil-and-fats"
   }, {
     path: "/agro-allied/Starches",
-    component: _497d1597,
+    component: _94b8c828,
     name: "agro-allied-Starches"
   }, {
     path: "/agro-allied/Sweeteners",
-    component: _29330dc2,
+    component: _2ff68398,
     name: "agro-allied-Sweeteners"
   }, {
     path: "/divisions/agro-allied",
-    component: _7fef600c,
+    component: _2931df62,
     name: "divisions-agro-allied"
   }, {
     path: "/divisions/foods",
-    component: _3e661cde,
+    component: _f2c5fe1a,
     name: "divisions-foods"
   }, {
     path: "/divisions/sugar",
-    component: _48bd5de3,
+    component: _62790d57,
     name: "divisions-sugar"
   }, {
     path: "/divisions/support-services",
-    component: _a2fc78ba,
+    component: _2166f06e,
     name: "divisions-support-services"
   }, {
     path: "/foods/ball-foods",
-    component: _fbb39f86,
+    component: _37a33aec,
     name: "foods-ball-foods"
   }, {
     path: "/foods/flour",
-    component: _05131f00,
+    component: _b6041eda,
     name: "foods-flour"
   }, {
     path: "/foods/impulse-foods",
-    component: _469d9c92,
+    component: _16f27f6c,
     name: "foods-impulse-foods"
   }, {
     path: "/foods/oil-and-spread",
-    component: _2e1d053a,
+    component: _10f94907,
     name: "foods-oil-and-spread"
   }, {
     path: "/priority-areas/backward-integration",
-    component: _0ae5a1f6,
+    component: _093f41ba,
     name: "priority-areas-backward-integration"
   }, {
     path: "/priority-areas/community-investment",
-    component: _84bca07a,
+    component: _a3c72620,
     name: "priority-areas-community-investment"
   }, {
     path: "/priority-areas/diversity-and-inclusion",
-    component: _41b7fed6,
+    component: _1cfc9689,
     name: "priority-areas-diversity-and-inclusion"
   }, {
     path: "/priority-areas/feeding-the-nation",
-    component: _e7d529d0,
+    component: _5ef0e0f6,
     name: "priority-areas-feeding-the-nation"
   }, {
     path: "/priority-areas/index2",
-    component: _1d558cac,
+    component: _41f12c99,
     name: "priority-areas-index2"
   }, {
     path: "/divisions/sugar/golden-sugar-company",
-    component: _58b863be,
+    component: _cd666fa6,
     name: "divisions-sugar-golden-sugar-company"
   }, {
     path: "/divisions/sugar/hse",
-    component: _9013bfea,
+    component: _a001c702,
     name: "divisions-sugar-hse"
   }, {
     path: "/divisions/sugar/quality-assurance",
-    component: _687838f0,
+    component: _66845a64,
     name: "divisions-sugar-quality-assurance"
   }, {
     path: "/divisions/sugar/sunti-golden-sugar-estate",
-    component: _55a8460c,
+    component: _edf49900,
     name: "divisions-sugar-sunti-golden-sugar-estate"
   }, {
     path: "/divisions/sugar/sustainability",
-    component: _0fef4d34,
+    component: _f36e671c,
     name: "divisions-sugar-sustainability"
   }, {
-    path: "/",
-    component: _b337bd9a,
-    name: "index"
-  }, {
     path: "/blog/:id",
-    component: _00fd168e,
+    component: _e2c1db54,
     name: "blog-id"
   }, {
     path: "/press-release/:id?",
-    component: _cb726868,
+    component: _4b10226f,
     name: "press-release-id"
+  }, {
+    path: "/",
+    component: _00c5af99,
+    name: "index"
   }],
 
   fallback: false

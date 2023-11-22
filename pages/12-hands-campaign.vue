@@ -2,8 +2,8 @@
   <div>
     <!--=== Page Banner Section ===-->
       <PageBanner
-          pageTitle="63 hands of FMN"
-          pageCrumbName="63 hands of FMN campaign"
+          pageTitle="12 hands of FMN"
+          pageCrumbName="12 hands of FMN campaign"
           class="campaign-page"
       />
       <!--=== end of Page Banner Section ===-->
@@ -23,7 +23,7 @@
               <div class="htj-item">
                 <img src="~/assets/images/p-2.png" alt="1" class="num-img">
                 <div class="htj-box-desc">
-                  Download the exclusive <a href="#campaign-form-section" class="pry-color">"63 hands of FMN"</a> frame.
+                  Download the exclusive <a href="#campaign-form-section" class="pry-color">"12 hands of FMN"</a> frame.
                 </div>
               </div>
               <div class="htj-item">

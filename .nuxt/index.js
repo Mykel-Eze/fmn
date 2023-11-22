@@ -12,14 +12,14 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_7b8c82dc from 'nuxt_plugin_plugin_7b8c82dc' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_288fd02e from 'nuxt_plugin_bootstrapvue_288fd02e' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_vuesocialsharingplugin_11c3b310 from 'nuxt_plugin_vuesocialsharingplugin_11c3b310' // Source: .\\vue-social-sharing-plugin.js (mode: 'all')
-import nuxt_plugin_axios_d9a73e02 from 'nuxt_plugin_axios_d9a73e02' // Source: .\\axios.js (mode: 'all')
-import nuxt_plugin_googleanalytics_d5da9c72 from 'nuxt_plugin_googleanalytics_d5da9c72' // Source: .\\google-analytics.js (mode: 'client')
-import nuxt_plugin_axios_3566aa80 from 'nuxt_plugin_axios_3566aa80' // Source: ..\\plugins\\axios (mode: 'all')
-import nuxt_plugin_chartkick_5668dec9 from 'nuxt_plugin_chartkick_5668dec9' // Source: ..\\plugins\\chartkick.js (mode: 'all')
-import nuxt_plugin_fullpage_2c77f33a from 'nuxt_plugin_fullpage_2c77f33a' // Source: ..\\plugins\\fullpage.js (mode: 'client')
+import nuxt_plugin_plugin_4171d962 from 'nuxt_plugin_plugin_4171d962' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_6606b3d8 from 'nuxt_plugin_bootstrapvue_6606b3d8' // Source: ./bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_vuesocialsharingplugin_b0a95944 from 'nuxt_plugin_vuesocialsharingplugin_b0a95944' // Source: ./vue-social-sharing-plugin.js (mode: 'all')
+import nuxt_plugin_axios_732f0636 from 'nuxt_plugin_axios_732f0636' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_googleanalytics_2b3b6bbe from 'nuxt_plugin_googleanalytics_2b3b6bbe' // Source: ./google-analytics.js (mode: 'client')
+import nuxt_plugin_axios_3566aa80 from 'nuxt_plugin_axios_3566aa80' // Source: ../plugins/axios (mode: 'all')
+import nuxt_plugin_chartkick_5668dec9 from 'nuxt_plugin_chartkick_5668dec9' // Source: ../plugins/chartkick.js (mode: 'all')
+import nuxt_plugin_fullpage_2c77f33a from 'nuxt_plugin_fullpage_2c77f33a' // Source: ../plugins/fullpage.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -48,7 +48,7 @@ Vue.component(Nuxt.name, Nuxt)
 
 Object.defineProperty(Vue.prototype, '$nuxt', {
   get() {
-    const globalNuxt = this.$root ? this.$root.$options.$nuxt : null
+    const globalNuxt = this.$root.$options.$nuxt
     if (process.client && !globalNuxt && typeof window !== 'undefined') {
       return window.$nuxt
     }
@@ -62,8 +62,7 @@ Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n
 const defaultTransition = {"name":"page","mode":"out-in","appear":true,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp(ssrContext, config = {}) {
-  const store = null
-  const router = await createRouter(ssrContext, config, { store })
+  const router = await createRouter(ssrContext, config)
 
   // Create Root instance
 
@@ -135,7 +134,6 @@ async function createApp(ssrContext, config = {}) {
     req: ssrContext ? ssrContext.req : undefined,
     res: ssrContext ? ssrContext.res : undefined,
     beforeRenderFns: ssrContext ? ssrContext.beforeRenderFns : undefined,
-    beforeSerializeFns: ssrContext ? ssrContext.beforeSerializeFns : undefined,
     ssrContext
   })
 
@@ -185,24 +183,24 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_7b8c82dc === 'function') {
-    await nuxt_plugin_plugin_7b8c82dc(app.context, inject)
+  if (typeof nuxt_plugin_plugin_4171d962 === 'function') {
+    await nuxt_plugin_plugin_4171d962(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_288fd02e === 'function') {
-    await nuxt_plugin_bootstrapvue_288fd02e(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_6606b3d8 === 'function') {
+    await nuxt_plugin_bootstrapvue_6606b3d8(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_vuesocialsharingplugin_11c3b310 === 'function') {
-    await nuxt_plugin_vuesocialsharingplugin_11c3b310(app.context, inject)
+  if (typeof nuxt_plugin_vuesocialsharingplugin_b0a95944 === 'function') {
+    await nuxt_plugin_vuesocialsharingplugin_b0a95944(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_d9a73e02 === 'function') {
-    await nuxt_plugin_axios_d9a73e02(app.context, inject)
+  if (typeof nuxt_plugin_axios_732f0636 === 'function') {
+    await nuxt_plugin_axios_732f0636(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_googleanalytics_d5da9c72 === 'function') {
-    await nuxt_plugin_googleanalytics_d5da9c72(app.context, inject)
+  if (process.client && typeof nuxt_plugin_googleanalytics_2b3b6bbe === 'function') {
+    await nuxt_plugin_googleanalytics_2b3b6bbe(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_3566aa80 === 'function') {
