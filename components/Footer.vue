@@ -68,6 +68,10 @@
                     </div>
                 </div>
             </div>
+
+            <div class="cgrs-badge">
+              <img src="~/assets/images/CGRS-Badge.png" alt="CGRS Badge">
+            </div>
         </div>
 
         <div class="row rel" id="footer-sec-2">
@@ -275,6 +279,9 @@ a {
 </style>
 
 <style>
+footer {
+  position: relative;
+}
 input#newsletter-input:focus {
     box-shadow: none;
 }
@@ -393,6 +400,23 @@ div#copyright-footer {
     color: white;
     font-weight: bold;
     padding: 3px;
+}
+
+.cgrs-badge {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.cgrs-badge > img {
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
