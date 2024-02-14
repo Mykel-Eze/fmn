@@ -70,7 +70,7 @@
             </div>
 
             <div class="cgrs-badge">
-              <img src="~/assets/images/CGRS-Badge.png" alt="CGRS Badge">
+              <img src="~/assets/images/CGRS-Badge.svg" alt="CGRS Badge">
             </div>
         </div>
 
