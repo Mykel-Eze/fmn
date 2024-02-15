@@ -69,9 +69,7 @@
                 </div>
             </div>
 
-            <div class="cgrs-badge">
-              <img src="~/assets/images/CGRS-Badge.svg" alt="CGRS Badge">
-            </div>
+            <img src="~/assets/images/CGRS-Badge.svg" alt="CGRS Badge" class="cgrs-badge">
         </div>
 
         <div class="row rel" id="footer-sec-2">
@@ -286,7 +284,7 @@ input#newsletter-input:focus {
     box-shadow: none;
 }
 div#footer-sec-1 {
-    padding: 40px 0;
+    padding: 40px 0 50px;
 }
 div#footer-sec-1::before {
     content: '';
@@ -376,6 +374,7 @@ button#newsletter-btn:hover {
 
 div#footer-sec-2 {
     margin-top: 40px;
+    padding-top: 10px;
 }
 
 .disclaimer-div {
@@ -402,21 +401,13 @@ div#copyright-footer {
     padding: 3px;
 }
 
-.cgrs-badge {
+img.cgrs-badge {
   position: absolute;
-  width: 80px;
-  height: 80px;
-  bottom: -40px;
+  width: 100px;
+  bottom: -30px;
   left: 50%;
   transform: translateX(-50%);
-  background: white;
   padding: 5px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-}
-.cgrs-badge > img {
-  width: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -434,10 +425,11 @@ div#copyright-footer {
 @media (max-width: 992px) {
     div#footer-sec-2 {
         margin-top: 0px;
+        padding-top: 30px;
     }
 
     div#footer-sec-1 {
-        padding: 40px 0 10px;
+        padding: 40px 0 50px;
     }
 
     div#footer-sec-1 .f-sec:nth-child(2) p,
