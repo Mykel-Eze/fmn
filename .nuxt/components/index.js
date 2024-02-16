@@ -22,10 +22,10 @@ export { default as SendMeUpdatesModal } from '../../components/SendMeUpdatesMod
 export { default as SugarPageSubNav } from '../../components/SugarPageSubNav.vue'
 export { default as SugarPageSubNav2 } from '../../components/SugarPageSubNav2.vue'
 export { default as VideoBanner } from '../../components/VideoBanner.vue'
-export { default as BlogOne } from '../../components/blog/BlogOne.vue'
-export { default as BlogTwo } from '../../components/blog/BlogTwo.vue'
 export { default as PressOne } from '../../components/press-release/PressOne.vue'
 export { default as PressTwo } from '../../components/press-release/PressTwo.vue'
+export { default as BlogOne } from '../../components/blog/BlogOne.vue'
+export { default as BlogTwo } from '../../components/blog/BlogTwo.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

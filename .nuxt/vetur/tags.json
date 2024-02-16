@@ -71,16 +71,16 @@
   "VideoBanner": {
     "description": "Auto imported from components/VideoBanner.vue"
   },
-  "BlogOne": {
-    "description": "Auto imported from components/blog/BlogOne.vue"
-  },
-  "BlogTwo": {
-    "description": "Auto imported from components/blog/BlogTwo.vue"
-  },
   "PressOne": {
     "description": "Auto imported from components/press-release/PressOne.vue"
   },
   "PressTwo": {
     "description": "Auto imported from components/press-release/PressTwo.vue"
+  },
+  "BlogOne": {
+    "description": "Auto imported from components/blog/BlogOne.vue"
+  },
+  "BlogTwo": {
+    "description": "Auto imported from components/blog/BlogTwo.vue"
   }
 }
