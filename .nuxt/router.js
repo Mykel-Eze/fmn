@@ -310,6 +310,10 @@ export const routerOptions = {
     component: _5b3e8478,
     name: "divisions-sugar-sustainability"
   }, {
+    path: "/",
+    component: _b337bd9a,
+    name: "index"
+  }, {
     path: "/blog/:id",
     component: _2c2265b0,
     name: "blog-id"
