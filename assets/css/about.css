@@ -119,7 +119,6 @@ section#sec-home {
 .diversity-n-inclusion-page section#sec-home {
     background-image: url(https://flourmills.s3.eu-central-1.amazonaws.com/images/other-bg/diversity-bg.jpg);
 }
-
 .campaign-page section#sec-home {
   background-image: url(../images/helping-hands.png);
   position: relative;
@@ -136,6 +135,20 @@ section#sec-home {
 /* .campaign-page section#sec-home .page-title {
   display: none;
 } */
+
+.foundation-page section#sec-home {
+  background-image: url(../images/foundation-banner.jpg);
+  position: relative;
+}
+.foundation-page section#sec-home::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
 .contact-page section#sharePage {
     display: none;

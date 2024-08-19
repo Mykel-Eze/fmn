@@ -223,6 +223,9 @@
                                 <nuxt-link to="/careers">Careers</nuxt-link>
                             </li>
                             <li>
+                                <nuxt-link to="/fmn-foundation">CSR</nuxt-link>
+                            </li>
+                            <li>
                                 <nuxt-link
                                     to=""
                                     class="dropdown-trigger"
@@ -452,6 +455,9 @@
                 <nuxt-link to="/careers" class="sidenav-close">
                     Careers
                 </nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to="/fmn-foundation" class="sidenav-close">CSR</nuxt-link>
             </li>
             <li>
                 <nuxt-link
